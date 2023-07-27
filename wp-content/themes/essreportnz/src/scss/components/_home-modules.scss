@@ -1,0 +1,488 @@
+/* HOME ICONS*/
+
+.hm-container {padding-bottom: 1.5rem;}
+
+.icons-wrap {padding: 21px 0;
+
+	p{
+		a {color: #fff;}
+	} 
+	
+	img {max-width: 40%; transition: transform .2s; /* Animation */}
+}
+
+.icons-wrap {padding: 20px 0; margin-bottom: 40px;}
+
+@media (min-width: 576px) {
+	.icons-wrap {
+		img {max-width: 60%; 
+		&:hover { transform: scale(1.2);}
+			}
+}
+}
+
+@media (max-width: 991px) {
+.icons-wrap {
+	p {margin: 0 0 1rem;}	
+}
+}
+
+/* home intro */
+
+.latest-reports-hm {background: $paleblue;
+@include media('>=768px') {background: $paleblue url('/wp-content/themes/essentialreportdev/images/dots-panel-4.png') no-repeat right bottom;}
+}
+
+.hm-header-wrap {position: relative;}
+
+.chart-wrap {background: linear-gradient(45deg, #00aeef, #0986d3); position: relative; min-height: 300px;}
+.chart-wrap-white {background: $white_5; position: relative; min-height: 320px;
+	&.white-new {min-height: 280px;}
+}
+	
+.er-head-wrap {position: absolute; top: 9rem; max-width: 1170px; left: 50%; transition: all .8s ease-out;
+    transform: translate(-50%, 0);
+		@include media('>=480px') {top: 11rem;}
+		@include media('>=768px') {top: 18rem;}
+		@include media('>=992px') {top: 2rem;}
+		@include media('>=1200px') {top: 5rem;}
+		@include media('>=1620px') {top: 8rem;}
+	h1 {color: #333; font-size: 1.75rem; line-height: 1.05; margin-top: 1rem; 
+		@include media('>=375px') {font-size: 2rem;}
+		@include media('>=992px') {font-size: 2.5rem;}
+		@include media('>=1200px') {font-size: 4rem; width: 80%;}
+		span {font-family: serif; color: #00aced;}
+	}
+
+}
+
+.er-head-wrap-new {position: absolute; top: 9rem; max-width: 1170px; left: 50%; transition: all .8s ease-out;
+    transform: translate(-50%, 0);
+		@include media('>=480px') {top: 9rem;}
+		@include media('>=575px') {top: .5rem;}
+		@include media('>=768px') {top: 3rem;}
+		@include media('>=992px') {top: 4rem;}
+		@include media('>=1200px') {top: 2rem;}
+		@include media('>=1460px') {top: 5rem;}
+		@include media('>=1680px') {top: 6rem;}
+	h1 {color: #333; font-size: 1.75rem; line-height: 1.05; margin-top: 1rem;
+		@include media('>=992px') {font-size: 2.4rem;}
+		@include media('>=1200px') {font-size: 3.5rem; width: 80%;}
+		span {font-family: serif; color: #00aced;}
+	}
+
+}
+
+.intro-panel {min-height: 200px; color: #fff;  background: rgba(6,65,90, 1); padding: 2rem 2rem 0; position: relative;
+	@include media('>=992px') {background: rgba(0,50,68,.93); bottom: 0; position: absolute; z-index: 20;}
+	
+	.intro-text {margin-bottom: 1.5rem; padding-left: 0; padding-right: 0;
+		@include media('>=575px') {padding-left: 15px; padding-right: 15px;}
+		@include media('>=992px') {margin-bottom: 3rem;}
+		h2 {margin-top: 1rem;}
+		p {font-size: .9rem; line-height: 1.4; color: #fff;
+			@include media('>=992px') {font-size: 1rem; line-height: 1.8;}
+		}
+	}
+
+	.intro-image {margin-bottom: -9%;
+		@include media('>=480px') {margin-bottom: -10%;}
+		@include media('>=1680px') {position: absolute; right: 15%; bottom: -20%; width: 40%; max-width:700px; margin-bottom: 0;}
+		.intro-image-wrap {margin-top: auto;}
+	}
+}
+
+
+.intro-panel-new {min-height: 200px; color: #fff;  background: rgba(6,65,90, 1); padding: 2rem 2rem 0; position: relative; transition: all .8s ease-out;
+	@include media('>=575px') {position: relative; background: rgba(0,50,68,.93); z-index: 20; margin-top: -4rem;}
+	@include media('>=768px') {margin-top: -1rem;}
+	@include media('>=992px') {margin-top: -2rem;}
+	@include media('>=1280px') {margin-top: -4rem;}
+	
+	.intro-text {margin-bottom: 1.5rem; padding-left: 0; padding-right: 0;
+		@include media('>=575px') {padding-left: 15px; padding-right: 15px;}
+		@include media('>=992px') {margin-bottom: 3rem;}
+		h2 {margin-top: 1rem;}
+		p {font-size: .9rem; line-height: 1.4; color: #fff;
+			@include media('>=992px') {font-size: 1rem; line-height: 1.8;}
+		}
+	}
+
+	.intro-image {margin-bottom: -10.666%; margin-left: -1rem; margin-right: -1rem; width: auto;
+		@include media('>=480px') {margin-bottom: -10.4%;}
+		@include media('>=1680px') {position: absolute; right: 15%; bottom: -21%; width: 40%; max-width:700px; margin-bottom: 0;}
+		.intro-image-wrap {margin-top: auto;}
+	}
+}
+
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #E9F2F4;
+	margin: 0 auto 2rem;
+	
+	&.arrow_insights {border-top: 40px solid #15162e;
+	@include media('>=1680px') {border-top: 40px solid #007ce9;}
+	}
+}
+
+/* Report list */
+h2 {
+	&.report-title {color: $blue_15; margin-bottom: 0;}
+
+}
+h3 {
+	
+	&.report-date {color: $blue_15; margin-top: .5rem;}
+}
+
+.report-list {
+	a {font-size: 1.1rem; line-height: 1.3;}
+}
+
+/* Political Polling */
+
+.political-insights {background: $blue_10 url("/wp-content/themes/essentialreportdev/images/pol-insights-bg.jpg") bottom center repeat-x; background-size: cover; padding: 3rem 0 13rem; min-height: 400px; position: relative; transition: all .8s ease-out; overflow: hidden;
+	
+	@include media('>=1680px') {padding: 3rem 0 5rem;} 
+
+	h2 {color: #fff;
+		@include media('>=992px') {font-size: 3em;}
+	}
+	p {font-size: .9rem; line-height: 1.3; color: #fff;
+	@include media('>=992px') {font-size: 1.1rem; line-height: 1.8;}
+	}
+	
+	.insight-blocks {position: relative; z-index: 10;}
+	
+	.insight-frame {min-height: 200px; background: #e7e7e7;}
+	
+	.insight-frame  {padding: .5rem 1rem;
+		p {font-size: 1rem; margin: 0;}
+	}
+	
+	.insight-link {background: $blue_15; padding: .5rem 1rem;
+		p {font-size: 1rem; margin: 0;}
+	}
+	
+	.port-pm {position: absolute; left: 32%; bottom: 0; max-width: 260px;
+		@include media('>=560px') {left: 48%;}
+		@include media('>=1680px') {max-width: 400px; right: 4%; left: auto;}
+	}
+		
+	.port-opp {position: absolute; right: 32%; bottom: 0; max-width: 240px;
+		@include media('>=560px') {right: 48%;}
+		@include media('>=1680px') {max-width: 350px; left: 4%; right: auto;} 
+	}
+}
+
+/*Insights Related */
+
+.insights-related {background: #E9F2F4; min-height: 400px; padding: 0 0 4rem;
+	@include media('>=768px') {background: $paleblue url('/wp-content/themes/essentialreportdev/images/dots-panel-2.png') no-repeat right bottom;}
+	
+	h3 {font-size: 1.1rem; color: $blue_5; text-decoration: underline; margin-bottom: 1rem;}
+
+	img {margin-bottom: .5rem;}
+	
+	p {
+		&.image-credit {font-size: .75rem; margin-top: 0;}
+	}
+	
+}
+
+/* Subscribe form */
+
+.subscribe {background-color: #083444; padding: 4rem 2rem 13rem; position: relative; overflow: hidden;
+	@include media('>=992px') {padding: 4rem 2rem 7rem;}
+	
+	h2 {background: -webkit-linear-gradient(315deg,#0e6bc2,#22bef9);
+    	background-clip: border-box;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		    margin-top: .5rem;
+	@include media('>=992px') {font-size: 3em; margin-top: 2rem;}
+	}
+	h3 {color: #fff; font-size: 1.66rem; font-weight: 700;
+		@include media('>=768px') {font-size: 2rem;}
+		/* @include media('>=992px') {font-size: 3rem;} */
+	}
+	p   {font-size: .9rem; line-height: 1.4; color: #fff;
+			@include media('>=992px') {font-size: 1.1rem; line-height: 1.8;}
+		}
+	a   {color: #fff;}
+	
+}
+
+.bar-chart {background-color: #083444; padding: 0rem 2rem 15rem; position: relative; overflow: hidden;
+	@include media('>=768px') {padding: 0rem 2rem 5rem;}
+	
+	h2 {background: -webkit-linear-gradient(315deg,#0e6bc2,#22bef9);
+    	background-clip: border-box;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		    margin-top: .5rem;
+	@include media('>=992px') {font-size: 3em;}
+	}
+	p  {font-size: .9rem; line-height: 1.4; color: #fff;
+			@include media('>=992px') {font-size: 1.1rem; line-height: 1.8;}
+	
+	a  {color: #fff; text-decoration: underline;}
+	}
+	
+	.priv-dark {
+		p {font-size: .85rem; margin-top: .5rem;
+		@include media('>=768px') {margin-top: 1rem;}
+		}
+	}
+
+	
+	figure {display: none;
+		&.animate {display: block;}
+	}
+	
+}
+
+.form-wrap {position: relative; z-index: 1;}
+
+
+.header-quote {color: #fff;
+background: #038bbe;
+padding: 2rem; 
+	h1 {font-weight: 400; text-transform: uppercase; font-size: 1.75em;
+		@include media('>=992px') {font-size: 3em; padding: 0rem; }
+	}
+}
+
+figure {margin: 0;}
+
+.hm-feature {background: $blue_5;}
+
+@media (min-width: 1890px) {
+	.hm-feature {min-height: 640px;}
+}
+
+h2 {
+	&.report-title {font-weight: 400;
+		@include media('>=992px') {font-size: 2.75em; }
+	}
+}
+
+
+
+.feature-text {padding: 3% 4% 3%; background: $grey_1; text-align: center; width: 100%; transition: all .3s ease-out;
+	h1{color:#fff; font-size: 2.25rem; font-weight:400;	margin: .5rem 0; }
+	h2{color:#fff; font-size: 1.25rem; font-weight:400; margin: 0 0 .5rem;}
+	h3{font-size: 1.25rem; font-weight: 400;}
+	p {color:#fff;}
+	
+	.scroll-down-arrow {color: rgba(252,252,252,.7); cursor:pointer;}
+}
+
+@media (min-width: 768px) {
+	.feature-text {
+			h1{font-size: 3rem;}
+			h2{font-size: 2.25rem;}
+		}
+}
+
+@media (min-width: 992px) {
+.feature-text {max-width: 1060px; position: absolute; bottom: 0; left: 0; text-align: left;
+    margin: 0 auto; z-index: 1;  
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%); background: transparent;
+
+		h1{color:#333;font-size: 3rem; margin-bottom: 0;}
+		h2{color:#333;font-size: 2.25rem;}
+		h3{color:#333;font-size: 1.25rem;}
+		p{color:#333;}
+		.scroll-down-arrow {display: none;}
+
+}
+}
+
+@media (min-width: 1200px) {
+.feature-text {
+	h1{font-size: 3.5rem; margin-top: 0;} 
+	h2{font-size: 3rem; margin-top: 0;}
+	h3{margin-top: 0; font-size: 2.25rem;}
+}
+}
+
+/*  Home Projects feed */
+
+.projects-wrap {background: #fff; padding: 2rem 0;
+	@include media('>=768px') {background: transparent url('/wp-content/themes/essentialreportdev/images/dots-panel-2.png') no-repeat right bottom;}
+	h2 {color: $blue_5; margin-bottom: 1rem;}
+	.project-intro-cont  {
+		p {padding: 0; line-height: 1.3; 
+			@include media('>=1200px') {
+				padding: 0 15% 0rem;
+			}
+			&:last-child {margin-bottom: 1.25rem;
+				@include media('>=1200px') {margin-bottom: 2rem;}
+			}
+		}
+	} 
+}
+
+.project-feed {display: flex;  align-content:stretch; margin-bottom: 1.5rem;
+	.project-feed-wrap {background: rgba($paleblue, .65); padding: 0 1.5rem 1.25rem;
+		&:hover {background: $paleblue;}
+	
+		h3 {font-size: 1.15rem; margin-top: 1.25rem; margin-bottom: .5rem;
+		@include media('>=768px') {font-size: 1.33rem;}
+			
+		}
+		a {
+			&:hover {text-decoration: none;}
+		}
+		
+		.excerpthm {
+			p {line-height: 1.3; margin: 0;}
+		}
+	
+	}
+}
+
+/*  Home News feed */
+
+.news-wrap {background: #fff; padding: 2rem 0;
+	@include media('>=768px') {background: transparent url('/wp-content/themes/essentialreportdev/images/dots-panel-2.png') no-repeat right bottom;}
+	h2 {color: $blue_5; margin-bottom: 2.5rem;}
+}
+
+.hm-news-feed {padding-right: 0; padding-left: 0; 
+	@include media('>=992px') {
+		padding-left: 0; padding-right: 0;
+			}
+	.news-feed-col {display:flex; margin-bottom: 1rem; 
+			
+		&.news-feed-wrap {background: transparent; padding: 0 .8rem; width: 100%; display: flex; 
+			h4 {font-weight: 700; font-size: 1.4rem; margin: -.8rem -.8rem .8rem -.8rem; padding: .8rem .8rem .6rem; background: #038bbe; color: #fff;}
+			.feeditem { padding: 1rem; background: rgba($paleblue, .65); position: relative;
+				&:first-child {margin-bottom: 1rem;}
+				&:hover {background: $paleblue;}
+				.guardian-icon {display: none;
+					&.include {display: block; position: absolute; top: 0; right: 0; max-width: 100px;}
+				}
+				.date {font-size: .85rem; color: $grey_10;}
+				h3 {font-size: 1.5rem; margin-top: .25rem; margin-bottom: 0;
+					
+				}
+				p {line-height: 1.1; margin: .5rem 0;}
+				a {
+						&:hover {text-decoration: none;}
+					}
+
+			}
+		}
+	}
+}
+
+/*  Home elements section */
+
+.home-elements {border-top: 12px solid $green_3;
+	.hm-element {background: $green_1;
+		.col-lg-6 {min-height: 300px; max-height: 500px; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; 
+			&.col-img {padding: 0;
+				img {width: 100%;height: 100%;
+						-o-object-fit: cover;
+						object-fit: cover;
+					
+				}	
+			}
+			.col-content {color: $white_5; width: 100%; padding: 1rem 1rem; text-align: center;
+					@include media('>=480px') {
+						padding: 1rem 15%; 
+					}
+				h2 {color: $white_5; margin: .5rem 0; font-size: 1.5rem;
+					@include media('>=992px') {
+						font-size: 1.85rem;
+					}
+					@include media('>=1200px') {
+						font-size: 2rem;
+					}
+
+					&.h2-lozenge {
+						@include media('<=992px') {
+							width: 80%;
+							position: absolute;
+							top: -1.5rem;
+							left: 50%;
+							-ms-transform: translate(-50%);
+							transform: translate(-50%);
+							}
+						
+						background: #82c341;
+						padding: 20px 30px;
+						border-radius: 40px;
+						z-index: 1;
+						font-size: 1.2rem;
+						text-align: center;
+						transition: all .3s ease-out;
+						cursor:pointer;
+						margin: 0 auto 0;
+						display: inline-block;
+						@include media('>=992px') {
+							margin: 1rem auto 0;
+							font-size: 1.5rem;
+						}
+						@include media('>=1200px') {
+							font-size: 1.85rem;
+						}
+					}
+				}
+				p {
+					@include media('>=1200px') {
+							font-size: 1.2rem;
+						}
+				}
+			}
+		}
+	}
+
+}
+
+
+
+
+/* Accordian */
+
+.accordion-wrap {position: relative;
+	&::before{
+	  content:url('/wp-content/themes/essentialreportdev/images/dots-pretext.png'); 
+	  position:absolute; 
+	  z-index:10; 
+	  left:-13rem;
+	  top:.75rem;
+	}
+}
+
+.card-body {
+	.cat-wrap {margin-top: -.3333rem; margin-bottom: 1rem; line-height: 1.2;
+		span {
+			&.category {
+				a {color: #038bbe; font-size: .85rem; text-decoration: underline;
+				&:hover {text-decoration: none;}
+				}
+			}
+		}
+	}
+}
+
+.card-link {display: block;
+	i {float: right; padding-bottom: .3rem; transform: rotate(180deg);}
+	&.collapsed {
+		i {padding-top: .3rem; transform: rotate(0deg);}
+		}
+}
+
+
+
+
+
+

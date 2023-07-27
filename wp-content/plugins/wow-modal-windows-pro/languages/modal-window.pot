@@ -1,0 +1,2147 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Wow Modal Windows Pro\n"
+"POT-Creation-Date: 2020-09-24 15:26+0300\n"
+"PO-Revision-Date: 2020-09-24 15:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wow-modal-windows-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/assets/js/wp-color-picker-alpha.js:92
+msgid "Color value"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:113
+msgid "Select Color"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:124
+msgid "Default"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:125
+msgid "Select default color"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:129
+msgid "Clear"
+msgstr ""
+
+#: admin/assets/js/wp-color-picker-alpha.js:130
+msgid "Clear color"
+msgstr ""
+
+#: admin/class-admin.php:68 admin/settings/main.php:18
+msgid "Settings"
+msgstr ""
+
+#: admin/class-admin.php:87
+#, php-format
+msgid ""
+"Thank you for using <a href=\"%1$s\" target=\"_blank\">%2$s</a>! Please <a "
+"href=\"%3$s\" target=\"_blank\">rate us on %4$s</a>"
+msgstr ""
+
+#: admin/class-admin.php:261 admin/page-main.php:23
+msgid "Item Updated"
+msgstr ""
+
+#: admin/class-list-table.php:110 admin/class-list-table.php:232
+msgid "Untitle"
+msgstr ""
+
+#: admin/class-list-table.php:117
+msgid "Edit"
+msgstr ""
+
+#: admin/class-list-table.php:118
+msgid "Duplicate"
+msgstr ""
+
+#: admin/class-list-table.php:120
+msgid "Delete"
+msgstr ""
+
+#: admin/class-list-table.php:160 admin/settings/style/main.php:117
+msgid "Title"
+msgstr ""
+
+#: admin/class-list-table.php:161 admin/settings/content/shortcodes.php:373
+#: admin/settings/display/main.php:165
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-list-table.php:162 admin/page-settings.php:19
+msgid "Test Mode"
+msgstr ""
+
+#: admin/class-list-table.php:163
+msgid "Status"
+msgstr ""
+
+#: admin/class-list-table.php:222
+msgid "On"
+msgstr ""
+
+#: admin/class-list-table.php:223
+msgid "Off"
+msgstr ""
+
+#: admin/class-list-table.php:225
+msgid "Click for Deactivate the popup."
+msgstr ""
+
+#: admin/class-list-table.php:226
+msgid "Click for Activate the popup."
+msgstr ""
+
+#: admin/class-list-table.php:229 admin/page-settings.php:29
+msgid "Activated"
+msgstr ""
+
+#: admin/class-list-table.php:230
+msgid "Deactivated"
+msgstr ""
+
+#: admin/class-list-table.php:303
+msgid "Delate"
+msgstr ""
+
+#: admin/class-list-table.php:304
+msgid "Activate popups"
+msgstr ""
+
+#: admin/class-list-table.php:305
+msgid "Deactivate popups"
+msgstr ""
+
+#: admin/page-items.php:58 includes/about/wow-plugins.php:93
+msgid "Active Installs"
+msgstr ""
+
+#: admin/page-list.php:25
+msgid "Search"
+msgstr ""
+
+#: admin/page-main.php:20
+msgid "Item Added"
+msgstr ""
+
+#: admin/page-main.php:29
+msgid "Item Deleted"
+msgstr ""
+
+#: admin/page-main.php:38
+msgid "Modal Window Activated"
+msgstr ""
+
+#: admin/page-main.php:43
+msgid "Modal Window Deactivated"
+msgstr ""
+
+#: admin/page-main.php:51
+msgid "List"
+msgstr ""
+
+#: admin/page-main.php:52
+msgid "Add new"
+msgstr ""
+
+#: admin/page-main.php:53
+msgid "Pro Features"
+msgstr ""
+
+#: admin/page-main.php:54
+msgid "Support"
+msgstr ""
+
+#: admin/page-main.php:55 includes/about/main.php:114
+msgid "Plugins"
+msgstr ""
+
+#: admin/page-main.php:66
+msgid "Add New"
+msgstr ""
+
+#: admin/page-main.php:99 admin/settings/database.php:33
+msgid "Update"
+msgstr ""
+
+#: admin/page-settings.php:25
+msgid "If test mode is enabled, the popup will show for admin only"
+msgstr ""
+
+#: admin/page-settings.php:35
+msgid ""
+"If check - the popup will show on the frontend. If uncheck - popup not "
+"displayed on the frontend."
+msgstr ""
+
+#: admin/page-settings.php:47
+msgid "Enter title here"
+msgstr ""
+
+#: admin/page-settings.php:51
+msgid "Register an item name"
+msgstr ""
+
+#: admin/page-support.php:44
+msgid "Please, Enter your Name."
+msgstr ""
+
+#: admin/page-support.php:47
+msgid "Please, Enter your Email."
+msgstr ""
+
+#: admin/page-support.php:50
+msgid "Please, Enter Subject of Message."
+msgstr ""
+
+#: admin/page-support.php:53
+msgid "Please, Enter your Message."
+msgstr ""
+
+#: admin/page-support.php:85
+msgid "Your Message sent to the Support."
+msgstr ""
+
+#: admin/page-support.php:89
+msgid ""
+"Sorry, but message did not send. Please, contact us support@wow-company.com"
+msgstr ""
+
+#: admin/page-support.php:139
+msgid "Issue"
+msgstr ""
+
+#: admin/page-support.php:140
+msgid "Idea"
+msgstr ""
+
+#: admin/settings/button/main.php:35 admin/settings/button/settings.php:60
+#: admin/settings/content/shortcodes.php:24
+#: admin/settings/style/settings.php:573
+msgid "Icon"
+msgstr ""
+
+#: admin/settings/button/main.php:63 admin/settings/style/main.php:52
+#: admin/settings/style/settings.php:492
+msgid "Location"
+msgstr ""
+
+#: admin/settings/button/main.php:88 admin/settings/settings/main.php:112
+msgid "Animation"
+msgstr ""
+
+#: admin/settings/button/main.php:116 admin/settings/main.php:17
+#: admin/settings/style/settings.php:758
+msgid "Style"
+msgstr ""
+
+#: admin/settings/button/settings.php:16
+msgid "Show button"
+msgstr ""
+
+#: admin/settings/button/settings.php:23 admin/settings/button/settings.php:181
+#: admin/settings/settings/settings.php:79
+#: admin/settings/settings/settings.php:207
+#: admin/settings/settings/settings.php:304
+#: admin/settings/settings/settings.php:320
+#: admin/settings/settings/settings.php:334
+msgid "no"
+msgstr ""
+
+#: admin/settings/button/settings.php:24
+#: admin/settings/settings/settings.php:80
+#: admin/settings/settings/settings.php:305
+#: admin/settings/settings/settings.php:321
+#: admin/settings/settings/settings.php:335
+msgid "yes"
+msgstr ""
+
+#: admin/settings/button/settings.php:30
+msgid "Appearance"
+msgstr ""
+
+#: admin/settings/button/settings.php:37
+msgid "Only Text"
+msgstr ""
+
+#: admin/settings/button/settings.php:38
+msgid "Text and icon"
+msgstr ""
+
+#: admin/settings/button/settings.php:39
+msgid "Only Icon"
+msgstr ""
+
+#: admin/settings/button/settings.php:41
+msgid "Set the button appearance."
+msgstr ""
+
+#: admin/settings/button/settings.php:46 admin/settings/style/settings.php:574
+#: admin/settings/style/settings.php:580
+msgid "Text"
+msgstr ""
+
+#: admin/settings/button/settings.php:51
+#: admin/settings/content/shortcodes.php:134
+msgid "Enter Text"
+msgstr ""
+
+#: admin/settings/button/settings.php:53
+msgid "Enter Text for button."
+msgstr ""
+
+#: admin/settings/button/settings.php:68
+msgid "Select the Icon for button"
+msgstr ""
+
+#: admin/settings/button/settings.php:74
+msgid "Rotate icon"
+msgstr ""
+
+#: admin/settings/button/settings.php:81
+msgid "none"
+msgstr ""
+
+#: admin/settings/button/settings.php:82
+msgid "90&deg;"
+msgstr ""
+
+#: admin/settings/button/settings.php:83
+msgid "180&deg;"
+msgstr ""
+
+#: admin/settings/button/settings.php:84
+msgid "270&deg;"
+msgstr ""
+
+#: admin/settings/button/settings.php:89
+msgid "Text location"
+msgstr ""
+
+#: admin/settings/button/settings.php:96
+msgid "Before Icon"
+msgstr ""
+
+#: admin/settings/button/settings.php:97
+msgid "After Icon"
+msgstr ""
+
+#: admin/settings/button/settings.php:99 admin/settings/button/settings.php:140
+msgid "Set where the button text will be displayed."
+msgstr ""
+
+#: admin/settings/button/settings.php:103
+msgid "Shape"
+msgstr ""
+
+#: admin/settings/button/settings.php:128
+msgid "Location "
+msgstr ""
+
+#: admin/settings/button/settings.php:135 admin/settings/style/settings.php:166
+#: admin/settings/style/settings.php:552
+msgid "Right"
+msgstr ""
+
+#: admin/settings/button/settings.php:136 admin/settings/style/settings.php:141
+#: admin/settings/style/settings.php:538
+msgid "Left"
+msgstr ""
+
+#: admin/settings/button/settings.php:137 admin/settings/style/settings.php:90
+#: admin/settings/style/settings.php:510
+msgid "Top"
+msgstr ""
+
+#: admin/settings/button/settings.php:138 admin/settings/style/settings.php:116
+#: admin/settings/style/settings.php:524
+msgid "Bottom"
+msgstr ""
+
+#: admin/settings/button/settings.php:146
+msgid "Top position"
+msgstr ""
+
+#: admin/settings/button/settings.php:159
+msgid "Margin-right"
+msgstr ""
+
+#: admin/settings/button/settings.php:174
+msgid "Type"
+msgstr ""
+
+#: admin/settings/button/settings.php:182
+msgid "bounce"
+msgstr ""
+
+#: admin/settings/button/settings.php:183
+msgid "flash"
+msgstr ""
+
+#: admin/settings/button/settings.php:184
+msgid "pulse"
+msgstr ""
+
+#: admin/settings/button/settings.php:185
+msgid "rubberBand"
+msgstr ""
+
+#: admin/settings/button/settings.php:186
+msgid "shake"
+msgstr ""
+
+#: admin/settings/button/settings.php:187
+msgid "swing"
+msgstr ""
+
+#: admin/settings/button/settings.php:188
+msgid "tada"
+msgstr ""
+
+#: admin/settings/button/settings.php:189
+msgid "wobble"
+msgstr ""
+
+#: admin/settings/button/settings.php:190
+msgid "jello"
+msgstr ""
+
+#: admin/settings/button/settings.php:195
+msgid "Duration "
+msgstr ""
+
+#: admin/settings/button/settings.php:209
+msgid "Time"
+msgstr ""
+
+#: admin/settings/button/settings.php:223
+msgid "Pause"
+msgstr ""
+
+#: admin/settings/button/settings.php:239 admin/settings/form/settings.php:198
+#: admin/settings/form/settings.php:272
+msgid "Text size"
+msgstr ""
+
+#: admin/settings/button/settings.php:251
+msgid "em"
+msgstr ""
+
+#: admin/settings/button/settings.php:252
+#: admin/settings/settings/settings.php:64 admin/settings/style/settings.php:27
+#: admin/settings/style/settings.php:48 admin/settings/style/settings.php:108
+#: admin/settings/style/settings.php:134 admin/settings/style/settings.php:159
+#: admin/settings/style/settings.php:184 admin/settings/style/settings.php:938
+msgid "px"
+msgstr ""
+
+#: admin/settings/button/settings.php:255
+msgid "Set the font size for close button content."
+msgstr ""
+
+#: admin/settings/button/settings.php:263 admin/settings/form/settings.php:90
+#: admin/settings/style/settings.php:421
+msgid "Padding"
+msgstr ""
+
+#: admin/settings/button/settings.php:270
+msgid "Specify button text inner padding."
+msgstr ""
+
+#: admin/settings/button/settings.php:284
+msgid "Specify modal window border radius."
+msgstr ""
+
+#: admin/settings/button/settings.php:288 admin/settings/form/settings.php:260
+#: admin/settings/form/settings.php:286
+msgid "Text color"
+msgstr ""
+
+#: admin/settings/button/settings.php:297
+msgid "Text hover color"
+msgstr ""
+
+#: admin/settings/button/settings.php:306 admin/settings/form/settings.php:147
+#: admin/settings/form/settings.php:240 admin/settings/form/settings.php:296
+#: admin/settings/style/main.php:92 admin/settings/style/settings.php:213
+#: admin/settings/style/settings.php:405 admin/settings/style/settings.php:720
+msgid "Background"
+msgstr ""
+
+#: admin/settings/button/settings.php:315 admin/settings/style/settings.php:730
+msgid "Hover Background"
+msgstr ""
+
+#: admin/settings/content/popup-content.php:16 admin/settings/main.php:16
+msgid "Popup Content"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:16
+msgid "Shortcode Type"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:22 admin/settings/main.php:20
+msgid "Button"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:23
+msgid "Video"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:25
+msgid "Iframe"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:27
+msgid "Select the shortcode type."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:33
+msgid "Video Hosting"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:39
+msgid "YouTube"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:40
+msgid "Vimeo"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:42
+msgid "Set the resource for Video."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:46
+msgid "Video ID"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:50
+msgid "Enter video ID"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:52
+msgid "Set the video ID."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:56
+msgid "Video Width"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:67
+msgid "Set the video width."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:71
+msgid "Video Height"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:82
+msgid "Set the video height."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:88
+msgid "Button Type"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:94
+msgid "Popup Close Button"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:95
+msgid "Button with Link"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:97
+msgid "Set the type of the popup button"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:101
+msgid "Button Size"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:107
+msgid "Small"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:108
+msgid "Normal"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:109
+msgid "Medium"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:110
+msgid "Large"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:112
+msgid "Select the size of the button."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:116
+msgid "Full Width"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:122
+msgid "No"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:123
+#: admin/settings/style/settings.php:828
+msgid "Yes"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:125
+msgid "Set the fullwidth option for button."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:129
+msgid "Button Text"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:136
+msgid "Set the text for button."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:140
+msgid "Text Color"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:145
+msgid "Set the color for button text."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:149
+msgid "Background Color"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:154
+msgid "Set the color for button background."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:158
+#: admin/settings/content/shortcodes.php:223
+msgid "Link"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:162
+#: admin/settings/settings/settings.php:177
+msgid "Enter URL"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:164
+msgid "Enter the URL for button link"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:168
+msgid "Target"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:174
+#: admin/settings/settings/settings.php:196
+msgid "New tab"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:175
+#: admin/settings/settings/settings.php:197
+msgid "Same tab"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:177
+msgid "Target for opening the URL."
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:190
+#: admin/settings/content/shortcodes.php:232
+msgid "Select Icon"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:202
+#: admin/settings/style/settings.php:393 admin/settings/style/settings.php:700
+#: admin/settings/style/settings.php:794 admin/settings/style/settings.php:897
+msgid "Color"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:210
+msgid "Size"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:238
+msgid "In a new window"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:239
+msgid "In the same window"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:244
+msgid "Iframe link"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:253
+#: admin/settings/form/settings.php:76
+msgid "Width"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:261
+msgid "Height"
+msgstr ""
+
+#: admin/settings/content/shortcodes.php:366
+msgid "Preview"
+msgstr ""
+
+#: admin/settings/database.php:20
+msgid "Save"
+msgstr ""
+
+#: admin/settings/display/main.php:23
+msgid "Schedule"
+msgstr ""
+
+#: admin/settings/display/main.php:59
+msgid "Devices Control"
+msgstr ""
+
+#: admin/settings/display/main.php:81 admin/settings/display/settings.php:172
+msgid "User Role"
+msgstr ""
+
+#: admin/settings/display/main.php:103
+msgid "Site language"
+msgstr ""
+
+#: admin/settings/display/main.php:121
+msgid "Show if another popup already converted"
+msgstr ""
+
+#: admin/settings/display/main.php:148
+msgid "Display on site"
+msgstr ""
+
+#: admin/settings/display/settings.php:17
+msgid "Day of the week"
+msgstr ""
+
+#: admin/settings/display/settings.php:24
+msgid "Everyday"
+msgstr ""
+
+#: admin/settings/display/settings.php:25
+msgid "Monday"
+msgstr ""
+
+#: admin/settings/display/settings.php:26
+msgid "Tuesday"
+msgstr ""
+
+#: admin/settings/display/settings.php:27
+msgid "Wednesday"
+msgstr ""
+
+#: admin/settings/display/settings.php:28
+msgid "Thursday"
+msgstr ""
+
+#: admin/settings/display/settings.php:29
+msgid "Friday"
+msgstr ""
+
+#: admin/settings/display/settings.php:30
+msgid "Saturday"
+msgstr ""
+
+#: admin/settings/display/settings.php:31
+msgid "Sunday "
+msgstr ""
+
+#: admin/settings/display/settings.php:34
+msgid "Select the day of the week when the popup will be displayed."
+msgstr ""
+
+#: admin/settings/display/settings.php:40
+msgid "Time from"
+msgstr ""
+
+#: admin/settings/display/settings.php:46
+msgid "Specify what from time of the day to show the notice"
+msgstr ""
+
+#: admin/settings/display/settings.php:51
+msgid "Time to"
+msgstr ""
+
+#: admin/settings/display/settings.php:57
+msgid "Specify what to time of the day to show the notice."
+msgstr ""
+
+#: admin/settings/display/settings.php:62
+msgid "Set Dates"
+msgstr ""
+
+#: admin/settings/display/settings.php:68
+msgid "Check this if you want to set the show popup between dates."
+msgstr ""
+
+#: admin/settings/display/settings.php:74
+msgid "Date Start"
+msgstr ""
+
+#: admin/settings/display/settings.php:80
+msgid "Set the date start."
+msgstr ""
+
+#: admin/settings/display/settings.php:85
+msgid "Date End"
+msgstr ""
+
+#: admin/settings/display/settings.php:91
+msgid "Set the date end"
+msgstr ""
+
+#: admin/settings/display/settings.php:100
+msgid "Don't show on screens more"
+msgstr ""
+
+#: admin/settings/display/settings.php:117
+msgid "Specify the window breakpoint when the popup will be shown"
+msgstr ""
+
+#: admin/settings/display/settings.php:123
+msgid "Don't show on screens less"
+msgstr ""
+
+#: admin/settings/display/settings.php:140
+msgid "Specify the window breakpoint ( min width)"
+msgstr ""
+
+#: admin/settings/display/settings.php:146
+msgid "Show for users"
+msgstr ""
+
+#: admin/settings/display/settings.php:153
+#: admin/settings/display/settings.php:162
+msgid "All Users"
+msgstr ""
+
+#: admin/settings/display/settings.php:154
+msgid "Authorized Users"
+msgstr ""
+
+#: admin/settings/display/settings.php:155
+msgid "Unauthorized Users"
+msgstr ""
+
+#: admin/settings/display/settings.php:188
+msgid "Enable language dependency"
+msgstr ""
+
+#: admin/settings/display/settings.php:262
+msgid "Choose the language in which the popup will be displayed."
+msgstr ""
+
+#: admin/settings/display/settings.php:278
+msgid "All posts and pages"
+msgstr ""
+
+#: admin/settings/display/settings.php:279
+msgid "All posts"
+msgstr ""
+
+#: admin/settings/display/settings.php:280
+msgid "All pages"
+msgstr ""
+
+#: admin/settings/display/settings.php:281
+msgid "Posts with certain IDs"
+msgstr ""
+
+#: admin/settings/display/settings.php:282
+msgid "Pages with certain IDs"
+msgstr ""
+
+#: admin/settings/display/settings.php:283
+msgid "Posts in Categorys with IDs"
+msgstr ""
+
+#: admin/settings/display/settings.php:284
+msgid "All posts. except..."
+msgstr ""
+
+#: admin/settings/display/settings.php:285
+msgid "All pages, except..."
+msgstr ""
+
+#: admin/settings/display/settings.php:286
+msgid "Where shortcode is inserted"
+msgstr ""
+
+#: admin/settings/display/settings.php:289
+#: admin/settings/display/settings.php:315
+msgid "Taxonomy"
+msgstr ""
+
+#: admin/settings/display/settings.php:293
+msgid "Display on"
+msgstr ""
+
+#: admin/settings/display/settings.php:300
+msgid "Choose a condition to target to specific content."
+msgstr ""
+
+#: admin/settings/display/settings.php:327
+msgid "ID's"
+msgstr ""
+
+#: admin/settings/display/settings.php:332
+#: admin/settings/display/settings.php:334
+msgid "Enter IDs, separated by comma."
+msgstr ""
+
+#: admin/settings/display/settings.php:353
+msgid "Untitle Modal Window"
+msgstr ""
+
+#: admin/settings/display/settings.php:355
+#: admin/settings/display/settings.php:366
+msgid "Not created yet"
+msgstr ""
+
+#: admin/settings/display/settings.php:370
+msgid "Show after popup"
+msgstr ""
+
+#: admin/settings/display/settings.php:384
+msgid ""
+"The current popup will be shown to the user only if the user saw the "
+"previous set popup. The previous pop-up should have cookies."
+msgstr ""
+
+#: admin/settings/form/main.php:22
+msgid "Fields"
+msgstr ""
+
+#: admin/settings/form/main.php:52
+msgid "Form Style"
+msgstr ""
+
+#: admin/settings/form/main.php:87
+msgid "Fields Style"
+msgstr ""
+
+#: admin/settings/form/main.php:125
+msgid "Button Style"
+msgstr ""
+
+#: admin/settings/form/main.php:151
+msgid "Email Settings"
+msgstr ""
+
+#: admin/settings/form/main.php:189
+msgid "Email to Admin"
+msgstr ""
+
+#: admin/settings/form/main.php:205 admin/settings/form/main.php:238
+msgid "User email"
+msgstr ""
+
+#: admin/settings/form/main.php:206 admin/settings/form/main.php:239
+msgid "User Name"
+msgstr ""
+
+#: admin/settings/form/main.php:207 admin/settings/form/main.php:240
+msgid "Email Text"
+msgstr ""
+
+#: admin/settings/form/main.php:219
+msgid "Email to User"
+msgstr ""
+
+#: admin/settings/form/settings.php:16
+msgid "Name"
+msgstr ""
+
+#: admin/settings/form/settings.php:28
+msgid "Enable Name field in the form and enter the placeholder for it."
+msgstr ""
+
+#: admin/settings/form/settings.php:32
+msgid "Email"
+msgstr ""
+
+#: admin/settings/form/settings.php:44
+msgid "Enable Email field in the form and enter the placeholder for it."
+msgstr ""
+
+#: admin/settings/form/settings.php:48
+msgid "Textarea"
+msgstr ""
+
+#: admin/settings/form/settings.php:60
+msgid "Enable Textarea field in the form and enter the placeholder for it."
+msgstr ""
+
+#: admin/settings/form/settings.php:64
+msgid "Button text"
+msgstr ""
+
+#: admin/settings/form/settings.php:70
+msgid "Enter the text for Submit button."
+msgstr ""
+
+#: admin/settings/form/settings.php:82
+#, php-format
+msgid "Specify form width. Can be in px, % or auto."
+msgstr ""
+
+#: admin/settings/form/settings.php:83 admin/settings/form/settings.php:97
+#: admin/settings/form/settings.php:111 admin/settings/form/settings.php:125
+#: admin/settings/form/settings.php:139 admin/settings/form/settings.php:176
+#: admin/settings/form/settings.php:191 admin/settings/form/settings.php:205
+#: admin/settings/form/settings.php:219 admin/settings/form/settings.php:233
+#: admin/settings/form/settings.php:279
+#, php-format
+msgid "%s More information about CSS property %s"
+msgstr ""
+
+#: admin/settings/form/settings.php:96
+msgid "Specify form inner padding."
+msgstr ""
+
+#: admin/settings/form/settings.php:104 admin/settings/style/settings.php:806
+msgid "Margin"
+msgstr ""
+
+#: admin/settings/form/settings.php:110
+msgid "Specify form margin."
+msgstr ""
+
+#: admin/settings/form/settings.php:118 admin/settings/form/settings.php:169
+msgid "Border width"
+msgstr ""
+
+#: admin/settings/form/settings.php:124
+msgid "Set the border width for Form."
+msgstr ""
+
+#: admin/settings/form/settings.php:132 admin/settings/form/settings.php:184
+msgid "Border radius"
+msgstr ""
+
+#: admin/settings/form/settings.php:138
+msgid "Set the border radius for Form."
+msgstr ""
+
+#: admin/settings/form/settings.php:153
+msgid "Set the color for Form background."
+msgstr ""
+
+#: admin/settings/form/settings.php:157 admin/settings/form/settings.php:250
+msgid "Border color"
+msgstr ""
+
+#: admin/settings/form/settings.php:163
+msgid "Set the color for Form border."
+msgstr ""
+
+#: admin/settings/form/settings.php:175
+msgid "Set the border width for Fields."
+msgstr ""
+
+#: admin/settings/form/settings.php:190
+msgid "Set the border radius for Fields."
+msgstr ""
+
+#: admin/settings/form/settings.php:204
+msgid "Set the font size for Fields."
+msgstr ""
+
+#: admin/settings/form/settings.php:212
+msgid "Input height"
+msgstr ""
+
+#: admin/settings/form/settings.php:218
+msgid "Set the height for Field."
+msgstr ""
+
+#: admin/settings/form/settings.php:226
+msgid "Textarea height"
+msgstr ""
+
+#: admin/settings/form/settings.php:232
+msgid "Set the height for Textarea."
+msgstr ""
+
+#: admin/settings/form/settings.php:246
+msgid "Set the color for Field background."
+msgstr ""
+
+#: admin/settings/form/settings.php:256 admin/settings/form/settings.php:266
+msgid "Set the color for Field border."
+msgstr ""
+
+#: admin/settings/form/settings.php:278
+msgid "Set the font size for Button."
+msgstr ""
+
+#: admin/settings/form/settings.php:292
+msgid "Set the color for Button text."
+msgstr ""
+
+#: admin/settings/form/settings.php:302
+msgid "Set the color for Button background."
+msgstr ""
+
+#: admin/settings/form/settings.php:306
+msgid "Background on hover"
+msgstr ""
+
+#: admin/settings/form/settings.php:312
+msgid "Set the color for Button background on hover."
+msgstr ""
+
+#: admin/settings/form/settings.php:318
+msgid "Confirmation text"
+msgstr ""
+
+#: admin/settings/form/settings.php:322
+msgid "Thank you. We will contact you shortly."
+msgstr ""
+
+#: admin/settings/form/settings.php:324
+msgid "Set the text after sending Form."
+msgstr ""
+
+#: admin/settings/form/settings.php:328 admin/settings/form/settings.php:362
+msgid "Confirmation text size"
+msgstr ""
+
+#: admin/settings/form/settings.php:337
+msgid "Set confirmation text size."
+msgstr ""
+
+#: admin/settings/form/settings.php:341
+msgid "Confirmation text color"
+msgstr ""
+
+#: admin/settings/form/settings.php:347
+msgid "Set the color for Confirmation text."
+msgstr ""
+
+#: admin/settings/form/settings.php:352
+msgid "Error text"
+msgstr ""
+
+#: admin/settings/form/settings.php:356
+msgid "Correct the fields, please."
+msgstr ""
+
+#: admin/settings/form/settings.php:358
+msgid "Set the text for Error."
+msgstr ""
+
+#: admin/settings/form/settings.php:371
+msgid "Set Error text size."
+msgstr ""
+
+#: admin/settings/form/settings.php:375
+msgid "Error text color"
+msgstr ""
+
+#: admin/settings/form/settings.php:381
+msgid "Set the color for Error text."
+msgstr ""
+
+#: admin/settings/form/settings.php:385
+msgid "Close popup after sending"
+msgstr ""
+
+#: admin/settings/form/settings.php:394
+msgid "Set timer for closing modal window after sending email."
+msgstr ""
+
+#: admin/settings/form/settings.php:398
+msgid "EMS_Integration"
+msgstr ""
+
+#: admin/settings/form/settings.php:404
+msgid "Set integration with plugin EMSI. You must install the plugin EMSI"
+msgstr ""
+
+#: admin/settings/form/settings.php:405
+#, php-format
+msgid "%s More information plugin %s"
+msgstr ""
+
+#: admin/settings/form/settings.php:414
+msgid "Send email to admin"
+msgstr ""
+
+#: admin/settings/form/settings.php:421
+msgid "Set checkbox if you want to send email to admin."
+msgstr ""
+
+#: admin/settings/form/settings.php:425
+msgid "Send to email"
+msgstr ""
+
+#: admin/settings/form/settings.php:431
+msgid "Set the email to which the message will be sent."
+msgstr ""
+
+#: admin/settings/form/settings.php:435 admin/settings/form/settings.php:478
+msgid "Email subject"
+msgstr ""
+
+#: admin/settings/form/settings.php:439 admin/settings/form/settings.php:482
+msgid "Letter from the site"
+msgstr ""
+
+#: admin/settings/form/settings.php:441 admin/settings/form/settings.php:484
+msgid "Set the subject for Email."
+msgstr ""
+
+#: admin/settings/form/settings.php:445 admin/settings/form/settings.php:499
+msgid "Email content"
+msgstr ""
+
+#: admin/settings/form/settings.php:451 admin/settings/form/settings.php:505
+msgid "Enter the text that is sent to the email."
+msgstr ""
+
+#: admin/settings/form/settings.php:457
+msgid "Send email to user"
+msgstr ""
+
+#: admin/settings/form/settings.php:464
+msgid "Set checkbox if you want to send email to user."
+msgstr ""
+
+#: admin/settings/form/settings.php:468
+msgid "Email from"
+msgstr ""
+
+#: admin/settings/form/settings.php:474
+msgid "Set the email to be indicated in the message."
+msgstr ""
+
+#: admin/settings/form/settings.php:488
+msgid "Text From"
+msgstr ""
+
+#: admin/settings/form/settings.php:494
+msgid "Set the text From for message."
+msgstr ""
+
+#: admin/settings/main.php:19
+msgid "Display Rules"
+msgstr ""
+
+#: admin/settings/main.php:21
+msgid "Form"
+msgstr ""
+
+#: admin/settings/preview.php:19
+msgid "Live Preview"
+msgstr ""
+
+#: admin/settings/settings/main.php:24 admin/settings/settings/settings.php:18
+msgid "Triggers"
+msgstr ""
+
+#: admin/settings/settings/main.php:46
+msgid "You can open popup via adding to the element:"
+msgstr ""
+
+#: admin/settings/settings/main.php:65
+msgid "Closing modal window"
+msgstr ""
+
+#: admin/settings/settings/main.php:93
+msgid "You can сlose popup via adding to the element:"
+msgstr ""
+
+#: admin/settings/settings/main.php:143
+msgid "Youtube video support"
+msgstr ""
+
+#: admin/settings/settings/settings.php:25
+msgid "Click"
+msgstr ""
+
+#: admin/settings/settings/settings.php:26
+#: admin/settings/style/settings.php:262
+msgid "Auto"
+msgstr ""
+
+#: admin/settings/settings/settings.php:27
+msgid "Hover"
+msgstr ""
+
+#: admin/settings/settings/settings.php:28
+msgid "Exit"
+msgstr ""
+
+#: admin/settings/settings/settings.php:29
+msgid "Scrolled"
+msgstr ""
+
+#: admin/settings/settings/settings.php:30
+msgid "Right Click"
+msgstr ""
+
+#: admin/settings/settings/settings.php:31
+msgid "Selected Text"
+msgstr ""
+
+#: admin/settings/settings/settings.php:37
+#: admin/settings/settings/settings.php:137
+msgid "Delay"
+msgstr ""
+
+#: admin/settings/settings/settings.php:48
+msgid "Delay time in seconds for opening popup."
+msgstr ""
+
+#: admin/settings/settings/settings.php:52
+msgid "Reach"
+msgstr ""
+
+#: admin/settings/settings/settings.php:65 admin/settings/style/settings.php:28
+#: admin/settings/style/settings.php:49 admin/settings/style/settings.php:107
+#: admin/settings/style/settings.php:133 admin/settings/style/settings.php:158
+#: admin/settings/style/settings.php:183 admin/settings/style/settings.php:939
+msgid "%"
+msgstr ""
+
+#: admin/settings/settings/settings.php:68
+msgid "Distance from the top of the window for scrolled popup type."
+msgstr ""
+
+#: admin/settings/settings/settings.php:72
+msgid "Show only once"
+msgstr ""
+
+#: admin/settings/settings/settings.php:82
+msgid ""
+"Defines if the popup will set a cookie and hide it self for a period of time "
+"from the user.  Set the cookie in days."
+msgstr ""
+
+#: admin/settings/settings/settings.php:88
+msgid "Reset"
+msgstr ""
+
+#: admin/settings/settings/settings.php:105
+msgid "Remove Close Button"
+msgstr ""
+
+#: admin/settings/settings/settings.php:111
+msgid "Remove and don&rsquo;t show the popup close button."
+msgstr ""
+
+#: admin/settings/settings/settings.php:115
+msgid "Click Overlay to Close"
+msgstr ""
+
+#: admin/settings/settings/settings.php:121
+msgid "Specify if overlay can close the modal or not."
+msgstr ""
+
+#: admin/settings/settings/settings.php:126
+msgid "Press ESC to Close"
+msgstr ""
+
+#: admin/settings/settings/settings.php:132
+msgid "Enabled the ESC key to close the popup."
+msgstr ""
+
+#: admin/settings/settings/settings.php:148
+msgid "Delay time in seconds for showing popup close button."
+msgstr ""
+
+#: admin/settings/settings/settings.php:152
+msgid "Auto close"
+msgstr ""
+
+#: admin/settings/settings/settings.php:168
+msgid ""
+"Set the time in seconds during which you want the modal window to be open."
+msgstr ""
+
+#: admin/settings/settings/settings.php:172
+msgid "Redirect after close"
+msgstr ""
+
+#: admin/settings/settings/settings.php:185
+msgid "This option redirects the visitor after popup close."
+msgstr ""
+
+#: admin/settings/settings/settings.php:189
+msgid "Redirect Target"
+msgstr ""
+
+#: admin/settings/settings/settings.php:199
+msgid "Target for opening the redirected URL."
+msgstr ""
+
+#: admin/settings/settings/settings.php:208
+msgid "Blind Up"
+msgstr ""
+
+#: admin/settings/settings/settings.php:209
+msgid "Blind Down"
+msgstr ""
+
+#: admin/settings/settings/settings.php:210
+msgid "Blind Left"
+msgstr ""
+
+#: admin/settings/settings/settings.php:211
+msgid "Blind Right"
+msgstr ""
+
+#: admin/settings/settings/settings.php:212
+msgid "Bounce"
+msgstr ""
+
+#: admin/settings/settings/settings.php:213
+msgid "Clip Vertical"
+msgstr ""
+
+#: admin/settings/settings/settings.php:214
+msgid "Clip Horizontal"
+msgstr ""
+
+#: admin/settings/settings/settings.php:215
+msgid "Drop Up"
+msgstr ""
+
+#: admin/settings/settings/settings.php:216
+msgid "Drop Down"
+msgstr ""
+
+#: admin/settings/settings/settings.php:217
+msgid "Drop Left"
+msgstr ""
+
+#: admin/settings/settings/settings.php:218
+msgid "Drop Right"
+msgstr ""
+
+#: admin/settings/settings/settings.php:219
+msgid "Explode 4 Pieces"
+msgstr ""
+
+#: admin/settings/settings/settings.php:220
+msgid "Explode 9 Pieces"
+msgstr ""
+
+#: admin/settings/settings/settings.php:221
+msgid "Explode 12 Pieces"
+msgstr ""
+
+#: admin/settings/settings/settings.php:222
+msgid "Fade"
+msgstr ""
+
+#: admin/settings/settings/settings.php:223
+msgid "Fold"
+msgstr ""
+
+#: admin/settings/settings/settings.php:224
+msgid "Highlight"
+msgstr ""
+
+#: admin/settings/settings/settings.php:225
+msgid "Puff"
+msgstr ""
+
+#: admin/settings/settings/settings.php:226
+msgid "Pulsate"
+msgstr ""
+
+#: admin/settings/settings/settings.php:227
+msgid "Scale Both"
+msgstr ""
+
+#: admin/settings/settings/settings.php:228
+msgid "Scale Vertical"
+msgstr ""
+
+#: admin/settings/settings/settings.php:229
+msgid "Scale Horizontal"
+msgstr ""
+
+#: admin/settings/settings/settings.php:230
+msgid "Shake Left"
+msgstr ""
+
+#: admin/settings/settings/settings.php:231
+msgid "Shake Up"
+msgstr ""
+
+#: admin/settings/settings/settings.php:232
+msgid "Slide Left"
+msgstr ""
+
+#: admin/settings/settings/settings.php:233
+msgid "Slide Right"
+msgstr ""
+
+#: admin/settings/settings/settings.php:234
+msgid "Slide Up"
+msgstr ""
+
+#: admin/settings/settings/settings.php:235
+msgid "Slide Down"
+msgstr ""
+
+#: admin/settings/settings/settings.php:239
+msgid "AnimateIn"
+msgstr ""
+
+#: admin/settings/settings/settings.php:246
+msgid "Specify modal window transition open effect."
+msgstr ""
+
+#: admin/settings/settings/settings.php:250
+msgid "AnimateIn Speed"
+msgstr ""
+
+#: admin/settings/settings/settings.php:261
+#: admin/settings/settings/settings.php:289
+msgid "Specify popup animation effect speed"
+msgstr ""
+
+#: admin/settings/settings/settings.php:265
+msgid "AnimateOut"
+msgstr ""
+
+#: admin/settings/settings/settings.php:272
+msgid "Specify modal window transition close effect."
+msgstr ""
+
+#: admin/settings/settings/settings.php:278
+msgid "AnimateOut Speed"
+msgstr ""
+
+#: admin/settings/settings/settings.php:297
+msgid "Video support"
+msgstr ""
+
+#: admin/settings/settings/settings.php:307
+msgid ""
+"If enable checkbox, the modal will support Youtube video auto play and video "
+"stop on closing the modal."
+msgstr ""
+
+#: admin/settings/settings/settings.php:313
+msgid "Video autoplay"
+msgstr ""
+
+#: admin/settings/settings/settings.php:323
+msgid "If enable, the video will autoplay on modal opening."
+msgstr ""
+
+#: admin/settings/settings/settings.php:327
+msgid "Stop on close"
+msgstr ""
+
+#: admin/settings/settings/settings.php:337
+msgid "If enable, the video will stop playing on modal closing."
+msgstr ""
+
+#: admin/settings/style/main.php:24
+msgid "General"
+msgstr ""
+
+#: admin/settings/style/main.php:155
+msgid "Content"
+msgstr ""
+
+#: admin/settings/style/main.php:180
+msgid "Close Button"
+msgstr ""
+
+#: admin/settings/style/main.php:258
+msgid "Border"
+msgstr ""
+
+#: admin/settings/style/main.php:286 admin/settings/style/settings.php:820
+msgid "Shadow"
+msgstr ""
+
+#: admin/settings/style/main.php:320
+msgid "Mobile Rule"
+msgstr ""
+
+#: admin/settings/style/settings.php:13
+msgid "Modal Height"
+msgstr ""
+
+#: admin/settings/style/settings.php:26
+msgid "auto"
+msgstr ""
+
+#: admin/settings/style/settings.php:31
+msgid "Set Modal Window height."
+msgstr ""
+
+#: admin/settings/style/settings.php:35 admin/settings/style/settings.php:926
+msgid "Modal Width"
+msgstr ""
+
+#: admin/settings/style/settings.php:52
+msgid "Set Modal Window width"
+msgstr ""
+
+#: admin/settings/style/settings.php:56
+msgid "Z-index"
+msgstr ""
+
+#: admin/settings/style/settings.php:63
+msgid ""
+"The z-index property specifies the stack order of an element. An element "
+"with greater stack order is always in front of an element with a lower stack "
+"order."
+msgstr ""
+
+#: admin/settings/style/settings.php:69
+msgid "Position"
+msgstr ""
+
+#: admin/settings/style/settings.php:76
+msgid "Fixed"
+msgstr ""
+
+#: admin/settings/style/settings.php:77
+msgid "Absolute"
+msgstr ""
+
+#: admin/settings/style/settings.php:79
+msgid ""
+"Set the positioning of the popup. Can be: fixed (popup is positioned "
+"relative to the browser window) and absolute (the popup is positioned "
+"relative to its place)"
+msgstr ""
+
+#: admin/settings/style/settings.php:111
+msgid "Distance from the top edge of the screen."
+msgstr ""
+
+#: admin/settings/style/settings.php:137
+msgid "Distance from the bottom edge of the screen."
+msgstr ""
+
+#: admin/settings/style/settings.php:162
+msgid "Distance from the left edge of the screen."
+msgstr ""
+
+#: admin/settings/style/settings.php:187
+msgid "Distance from the right edge of the screen."
+msgstr ""
+
+#: admin/settings/style/settings.php:194
+msgid "Overlay"
+msgstr ""
+
+#: admin/settings/style/settings.php:207
+msgid ""
+"Specify if overlay should be active or not. If you uncheck, the modal will "
+"have no background overlay."
+msgstr ""
+
+#: admin/settings/style/settings.php:220
+msgid "Specify modal window background color."
+msgstr ""
+
+#: admin/settings/style/settings.php:225
+msgid "Background Image"
+msgstr ""
+
+#: admin/settings/style/settings.php:230
+msgid "Enter image URL"
+msgstr ""
+
+#: admin/settings/style/settings.php:232
+msgid ""
+"Specify the modal window background image. Enter the URL of the image which "
+"you want to use as a background."
+msgstr ""
+
+#: admin/settings/style/settings.php:237
+msgid "Background Image Repeat"
+msgstr ""
+
+#: admin/settings/style/settings.php:244
+msgid "No Repeat"
+msgstr ""
+
+#: admin/settings/style/settings.php:245
+msgid "Repeat"
+msgstr ""
+
+#: admin/settings/style/settings.php:246
+msgid "Repeat X"
+msgstr ""
+
+#: admin/settings/style/settings.php:247
+msgid "Repeat Y"
+msgstr ""
+
+#: admin/settings/style/settings.php:255
+msgid "Background Image Size"
+msgstr ""
+
+#: admin/settings/style/settings.php:263
+msgid "Cover"
+msgstr ""
+
+#: admin/settings/style/settings.php:264
+msgid "Contain"
+msgstr ""
+
+#: admin/settings/style/settings.php:275
+msgid "Used title as Popup Title."
+msgstr ""
+
+#: admin/settings/style/settings.php:285 admin/settings/style/settings.php:437
+#: admin/settings/style/settings.php:619
+msgid "Font Size"
+msgstr ""
+
+#: admin/settings/style/settings.php:296
+msgid "Set the font size for Title"
+msgstr ""
+
+#: admin/settings/style/settings.php:300 admin/settings/style/settings.php:474
+msgid "Line Height"
+msgstr ""
+
+#: admin/settings/style/settings.php:311 admin/settings/style/settings.php:485
+msgid ""
+"The line-height property defines the amount of space above and below inline "
+"elements"
+msgstr ""
+
+#: admin/settings/style/settings.php:315 admin/settings/style/settings.php:452
+#: admin/settings/style/settings.php:634
+msgid "Font Family"
+msgstr ""
+
+#: admin/settings/style/settings.php:322 admin/settings/style/settings.php:459
+#: admin/settings/style/settings.php:641
+msgid "Use Your Themes"
+msgstr ""
+
+#: admin/settings/style/settings.php:330
+msgid "Select the Font for Title"
+msgstr ""
+
+#: admin/settings/style/settings.php:336 admin/settings/style/settings.php:652
+msgid "Font Weight"
+msgstr ""
+
+#: admin/settings/style/settings.php:354
+msgid "Set the Font weight for Title."
+msgstr ""
+
+#: admin/settings/style/settings.php:360 admin/settings/style/settings.php:673
+msgid "Font Style"
+msgstr ""
+
+#: admin/settings/style/settings.php:376
+msgid "Align"
+msgstr ""
+
+#: admin/settings/style/settings.php:400
+msgid "Set Title color"
+msgstr ""
+
+#: admin/settings/style/settings.php:411
+msgid "Set Title Background color"
+msgstr ""
+
+#: admin/settings/style/settings.php:431
+msgid "Specify modal window inner padding."
+msgstr ""
+
+#: admin/settings/style/settings.php:448
+msgid "Set the font size for content"
+msgstr ""
+
+#: admin/settings/style/settings.php:468
+msgid "Select the Font for Content."
+msgstr ""
+
+#: admin/settings/style/settings.php:499
+msgid "Top Right location on the popup"
+msgstr ""
+
+#: admin/settings/style/settings.php:500
+msgid "Top Left location on the popup"
+msgstr ""
+
+#: admin/settings/style/settings.php:501
+msgid "Bottom Left location on the popup"
+msgstr ""
+
+#: admin/settings/style/settings.php:502
+msgid "Bottom Right location on the popup"
+msgstr ""
+
+#: admin/settings/style/settings.php:504
+msgid "Specify close button location."
+msgstr ""
+
+#: admin/settings/style/settings.php:520
+msgid "Distance from the top edge of the popup."
+msgstr ""
+
+#: admin/settings/style/settings.php:534
+msgid "Distance from the bottom edge of the popup."
+msgstr ""
+
+#: admin/settings/style/settings.php:548
+msgid "Distance from the left edge of the popup."
+msgstr ""
+
+#: admin/settings/style/settings.php:562
+msgid "Distance from the right edge of the popup."
+msgstr ""
+
+#: admin/settings/style/settings.php:566
+msgid "Button type"
+msgstr ""
+
+#: admin/settings/style/settings.php:585
+msgid "Close"
+msgstr ""
+
+#: admin/settings/style/settings.php:587
+msgid "Enter the close button text."
+msgstr ""
+
+#: admin/settings/style/settings.php:592
+msgid "Padding "
+msgstr ""
+
+#: admin/settings/style/settings.php:599
+msgid ""
+"Specify button text inner padding. Can be: any integer value in px (for "
+"example: \"10px\" will set popup inner paddings to 10px); if you enter 0, "
+"the popup will have not paddings; when four values are specified, the "
+"paddings apply to the top, right, bottom, and left in that order (clockwise)."
+msgstr ""
+
+#: admin/settings/style/settings.php:604
+msgid "Box Size"
+msgstr ""
+
+#: admin/settings/style/settings.php:615
+msgid "Specify box size for close button icon."
+msgstr ""
+
+#: admin/settings/style/settings.php:630
+msgid "Set the font size for close button content"
+msgstr ""
+
+#: admin/settings/style/settings.php:686
+msgid "Border Radius"
+msgstr ""
+
+#: admin/settings/style/settings.php:706
+msgid "Specify popup close button color."
+msgstr ""
+
+#: admin/settings/style/settings.php:710
+msgid "Hover Color"
+msgstr ""
+
+#: admin/settings/style/settings.php:716
+msgid "Specify popup close button hover text color."
+msgstr ""
+
+#: admin/settings/style/settings.php:726
+msgid "Specify popup close button background color."
+msgstr ""
+
+#: admin/settings/style/settings.php:736
+msgid "Specify popup close button hover background color."
+msgstr ""
+
+#: admin/settings/style/settings.php:743
+msgid "Radius"
+msgstr ""
+
+#: admin/settings/style/settings.php:754
+msgid "Specify border radius."
+msgstr ""
+
+#: admin/settings/style/settings.php:765 admin/settings/style/settings.php:827
+msgid "None"
+msgstr ""
+
+#: admin/settings/style/settings.php:766
+msgid "Solid"
+msgstr ""
+
+#: admin/settings/style/settings.php:767
+msgid "Dotted"
+msgstr ""
+
+#: admin/settings/style/settings.php:768
+msgid "Dashed"
+msgstr ""
+
+#: admin/settings/style/settings.php:769
+msgid "Double"
+msgstr ""
+
+#: admin/settings/style/settings.php:770
+msgid "Groove"
+msgstr ""
+
+#: admin/settings/style/settings.php:771 admin/settings/style/settings.php:829
+msgid "Inset"
+msgstr ""
+
+#: admin/settings/style/settings.php:772
+msgid "Outset"
+msgstr ""
+
+#: admin/settings/style/settings.php:773
+msgid "Ridge"
+msgstr ""
+
+#: admin/settings/style/settings.php:775
+msgid "Choose a border style."
+msgstr ""
+
+#: admin/settings/style/settings.php:779
+msgid "Thickness"
+msgstr ""
+
+#: admin/settings/style/settings.php:790
+msgid "Specify border width."
+msgstr ""
+
+#: admin/settings/style/settings.php:813
+msgid "Margin for border. Can be a negative value."
+msgstr ""
+
+#: admin/settings/style/settings.php:831
+msgid "Set the box shadow."
+msgstr ""
+
+#: admin/settings/style/settings.php:837
+msgid "Horizontal Position"
+msgstr ""
+
+#: admin/settings/style/settings.php:848
+msgid ""
+"The horizontal offset of the shadow. A positive value puts the shadow on the "
+"right side of the box, a negative value puts the shadow on the left side of "
+"the box."
+msgstr ""
+
+#: admin/settings/style/settings.php:852
+msgid "Vertical Position"
+msgstr ""
+
+#: admin/settings/style/settings.php:863
+msgid ""
+"The vertical offset of the shadow. A positive value puts the shadow below "
+"the box, a negative value puts the shadow above the box."
+msgstr ""
+
+#: admin/settings/style/settings.php:867
+msgid "Blur"
+msgstr ""
+
+#: admin/settings/style/settings.php:878
+msgid ""
+"The blur radius. The higher the number, the more blurred the shadow will be."
+msgstr ""
+
+#: admin/settings/style/settings.php:882
+msgid "Spread"
+msgstr ""
+
+#: admin/settings/style/settings.php:893
+msgid ""
+"The spread radius. A positive value increases the size of the shadow, a "
+"negative value decreases the size of the shadow."
+msgstr ""
+
+#: admin/settings/style/settings.php:904
+msgid "The color of the shadow."
+msgstr ""
+
+#: admin/settings/style/settings.php:911
+msgid "Mobile screen"
+msgstr ""
+
+#: admin/settings/style/settings.php:922
+msgid ""
+"Set the screen size in px of mobile devices for which the this option of the "
+"modal window size will be applied."
+msgstr ""
+
+#: admin/settings/style/settings.php:943
+msgid "Set the width of the modal window for mobile devices."
+msgstr ""
+
+#: includes/about/main.php:101
+msgid "Welcome"
+msgstr ""
+
+#: includes/about/main.php:104
+msgid ""
+"Congratulations! You are about to use one of the plugins from Wow-Company."
+msgstr ""
+
+#: includes/class-update.php:62
+msgid "License"
+msgstr ""
+
+#: includes/updater/activate.php:34 includes/updater/activate.php:62
+#: includes/updater/deactivate.php:35
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/updater/activate.php:41
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/updater/activate.php:45
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/updater/activate.php:48
+msgid "Invalid license."
+msgstr ""
+
+#: includes/updater/activate.php:52
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/updater/activate.php:56
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/updater/activate.php:59
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/updater/class-update.php:383
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/updater/class-update.php:388
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/updater/class-update.php:538
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/updater/class-update.php:539
+msgid "Error"
+msgstr ""
+
+#: includes/updater/page-license.php:27
+msgid "License Key"
+msgstr ""
+
+#: includes/updater/page-license.php:30
+msgid "Enter License key"
+msgstr ""
+
+#: includes/updater/page-license.php:39
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/updater/page-license.php:43
+msgid "Activate License"
+msgstr ""
+
+#: includes/updater/page-license.php:53 includes/updater/page-license.php:58
+msgid "Plugin Status"
+msgstr ""
+
+#: includes/updater/page-license.php:54
+msgid "Active"
+msgstr ""
+
+#: includes/updater/page-license.php:59
+msgid "Inactive"
+msgstr ""
+
+#: includes/updater/page-license.php:62
+msgid "Click the button \"Activate License\" to activate the plugin."
+msgstr ""
+
+#: public/partials/public.php:21
+msgid "Feedback"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: wow-modal-windows-pro.php:47
+msgid "Wow Modal Windows Pro"
+msgstr ""
+
+#: wow-modal-windows-pro.php:48
+msgid "Modal Windows Pro"
+msgstr ""
+
+#: wow-modal-windows-pro.php:66
+msgid "Wow-Estore"
+msgstr ""
+
+#: wow-modal-windows-pro.php:128 wow-modal-windows-pro.php:142
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wow-estore.com/item/wow-modal-windows-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The most powerful creator of popups & flyouts"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wow-Company"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wow-company.com"
+msgstr ""

@@ -1,0 +1,322 @@
+/*Theme Name: essreportnz
+Description: Boostrap 4
+Author: 
+Author URI:
+*/
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css');
+@import url('css/slick-theme.css');
+@import url('css/animate.css');
+
+/* RESET
+
+-------------------------------------------*/
+
+/* MAIN STYLES */
+
+
+#header {
+    padding: 0;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+
+/* #header {
+	padding: 15px 0 15px; height: 75px;
+} */
+	
+}
+
+
+.lo-shadow {box-shadow: 0px 5px 5px 0px rgba(0,0,0,.1);}	
+
+
+/* */
+
+
+
+.wp-block-separator {color: #f1ecea;
+margin-top: 15px;
+border: none;
+border-top: 4px solid #f1ecea;
+margin-bottom: 20px;}
+
+	
+/* TYPOGRAPHY */	
+
+/* Tables */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+table.privacy-table td {
+	padding: 10px;
+
+}
+
+table.core-table {border: 1px solid #bbb;}
+table.core-table td, table.core-table th {
+    border-top: 1px solid #ddd;
+    padding: 4px 8px;
+}
+
+table.core-table.col-rules td, table.core-table.col-rules th {
+    border: 1px solid #ddd;
+}
+
+table.core-table td.rev-row {color: #fff; background-color: #008850;}
+
+table.core-table td.rev-row-lf {color: #fff; background-color: #073536}
+
+table.core-table tr.grey-row {background-color: #e7e7e7;}
+
+
+.wp-block-table.core-table table {border: none;}
+.wp-block-table.core-table table td, .wp-block-table.core-table table th {
+    border-top: 1px solid #ddd;
+    padding: 8px 8px;
+}
+.wp-block-table.core-table table thead {background:#008752;}
+.wp-block-table.core-table table thead th {color: #fff; font-weight: 400;}
+.wp-block-table.core-table table tr.red-text-highlight td {color: #cf2e2e;}
+
+.contentTable
+{
+	border: 0;
+	margin: 0 0 15px;
+}
+
+th, td
+{
+	vertical-align: top;
+	text-align: left;
+}
+
+.contentTable th,
+#read_only_order_list th
+{
+	text-align: left;
+	padding: 8px 2% !important;
+	background: #008752;
+	color: #fff;
+	font-weight: bold;
+	border: 1px solid #fff;
+}
+#read_only_order_list th a
+{
+	color: #fff;
+}
+
+.contentTable td,
+#read_only_order_list td
+{
+	text-align: left;
+	padding: 8px 2% !important;
+	background: #e7e4e4;
+	border: 1px solid #fff;
+}
+
+.contentTable tr.grey-row td {background: #d3d2d2;}
+
+
+/* STRUCTURE */
+
+#header.headerlevel {
+	/*border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;*/
+	padding: 2% 0;
+	margin: 0 2%;
+	background-image: url(images/L1bg.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+
+/*  navigation */
+
+/* Header Social */
+
+/* SIDEBAR ELEMENTS*/
+
+/* IMAGES */
+
+.colLeft .postItem img.alignnone {width:  auto; height: auto; float: left; padding-right: 10px; margin-bottom: 10px; clear: left; margin-top: 10px;}
+
+.colLeft .postItem img.alignleft {width:  100%; height: auto; float: left; padding-right: 10px; margin-bottom: 10px; clear: left; margin-top: 10px;}
+
+.colLeft .postItem .wp-caption.alignleft {width: 50%; height: auto; float: left; padding-right: 10px; margin-bottom: 10px; clear: left;}
+
+.colLeft .postItem img.alignright {width:  100%; height: auto; float: right; padding-left: 10px; margin-bottom: 10px; margin-top: 10px; clear: left;}
+.colLeft .postItem img.alignright.sm {width:  25%;}
+
+.colLeft .postItem .wp-caption.alignright {width:  50%; height: auto; float: right; padding-left: 10px; margin-bottom: 10px; clear: right;}
+
+.colLeft .postItem .wp-caption p { line-height: 125%; margin-top: 5px;}
+
+.colLeft .postItem img.aligncenter {width:  100%; height: auto; padding: 0; margin-bottom: 10px; clear: left;}
+
+.colLeft .postItem hr.hr-clear {clear: both; margin: 2% 0;}
+
+.colLeft .postItem hr.hr-clear-trans {clear: both; margin: 1% 0; border: none;}
+
+/* non responsine (small) images - assign '-noresp' after alignright/left class*/
+
+.colLeft.page img.act-img-pc {display: none;}
+
+.colLeft.page img.alignnone {width:  auto; max-height: 100%; float: left; padding-right: 10px; margin-bottom: 10px; margin-top: 10px; clear: left;}
+
+.colLeft.page img.alignleft {width:  100%; height: auto; float: left; padding-right: 10px; margin-bottom: 10px; clear: left; margin-top: 10px;}
+
+.colLeft.page .wp-caption.alignleft {width:  50%; height: auto; float: left; padding-right: 10px; margin-bottom: 10px; clear: left;}
+
+.colLeft.page img.alignright {width:  100%; height: auto; float: right; padding-left: 10px; margin-bottom: 10px; clear: left; margin-top: 10px;}
+.colLeft.page img.alignright.sm {width:  25%;}
+
+.colLeft.page .wp-caption.alignright {width:  50%; height: auto; float: right; padding-left: 10px; margin-bottom: 10px; clear: right;}
+
+.colLeft.page .wp-caption p { line-height: 125%; margin-top: 5px;}
+
+.colLeft.page img.aligncenter {width: 100%; height: auto; padding: 0; margin-bottom: 10px; clear: left;}
+
+.colLeft.page hr.hr-clear {clear: both; margin: 2% 0;}
+
+.colLeft.page hr.hr-clear-trans {clear: both; margin: 1% 0; border: none;}
+
+.colLeft.page hr.hr-generic {clear: both; margin: 3% 0; height: 4px;
+    color: #008752;
+    background: #008752;
+    font-size: 0;
+    border: 0;}
+		
+/* non responsine (small) images - assign '-noresp' after alignright/left class*/
+
+.colLeft.page img.alignleft-noresp {width:  auto; height: auto; float: left; padding-right: 10px; margin-bottom: 10px; clear: left;}
+
+.colLeft.page .wp-caption.alignleft-noresp {width:  auto; height: auto; float: left; padding-right: 10px; margin-bottom: 10px; clear: left;}
+
+.colLeft.page img.alignright-noresp {width:  auto; height: auto; float: right; padding-left: 10px; margin-bottom: 10px; clear: left;}
+
+.colLeft.page .wp-caption.alignright-noresp {width: auto; height: auto; float: right; padding-left: 10px; margin-bottom: 10px; clear: right;}
+
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+	color: #220e10;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+}
+
+img.wp-smiley,
+.rsswidget img {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.wp-caption.alignleft + ul,
+.wp-caption.alignleft + ol  {
+	list-style-position: inside;
+}
+
+
+
+/* FORM STYLES */
+
+
+/* GRAVITY FORMS GENERIC gforms */
+
+
+
+#wrapper .gform_wrapper {
+	margin: 0 0 40px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+#wrapper .gform_wrapper .gform_heading {margin: 5px 0 10px; width: 100%;}
+
+/*#wrapper .gform_wrapper .top_label .gfield_label {
+    float: left;
+    width: 200px;
+}*/
+
+#wrapper .gform_wrapper .top_label input.medium {
+  	border: 1px solid #CCCCCC;
+    height: 26px;
+    padding: 4px;
+	border-radius: 4px 4px 4px 4px;
+	margin-bottom: 2%;
+}
+
+#wrapper .gform_wrapper .top_label input.medium:focus {
+    box-shadow: 0 0 5px #007EFF;
+}
+
+#wrapper .gform_wrapper .top_label .gfield_checkbox input {
+	background-image: none;
+	border: none;
+}
+
+#wrapper .gform_wrapper .top_label .gfield_label.postcode {
+	margin-top: 0px!important;
+}
+
+
+#wrapper .gform_wrapper ul.gfield_checkbox, .gform_wrapper ul.gfield_radio {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper .gform_wrapper .gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 26px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    vertical-align: top;
+    width: auto;
+}
+
+/* END GRAVITY FORMS */
+
+
+/* Youtube responsive*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+	margin-top: 10px;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} /* See more at: http://avexdesigns.com/responsive-youtube-embed/#sthash.En2wgxy3.dpuf */
+
+.question-show {display: none;}
+
+.question-show.active {display: block;}
+
+/* END CORE STYLES */
+
+/* Trans to scss */
+
+/* End style sheet */
+
+
+
+

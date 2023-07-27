@@ -1,0 +1,103 @@
+/* Generic Action Network form */
+
+#can_embed_form {
+	h2 {display: none;}
+	h4 {display: none;}
+	p {color: $white_5;
+		a {text-decoration:underline;
+			&:hover {text-decoration:none;}
+		}
+	}
+	.country_drop_wrap {display: none!important;}
+	
+	label {color: $white_5; font-size: .9rem!important;}
+	#action_info {display: none;}
+	input {border-radius: 4px!important;
+		&[type="submit"] {font-size: 1.2rem!important; border-radius: 4px; height: 44px; background-color: #f6863e!important; font-weight: 700!important; height: 52px !important;
+			&:hover {background-color: #e11a2c!important;}
+		}
+		&[type="text"] {height: 52px !important;}
+		&[type="email"] {height: 52px !important;}
+	}
+	#can_thank_you {background-color: #ee1d42!important;}
+	.iti {
+		&input{
+		&[type="text"]{margin-bottom: 15px!important;}
+		}
+	}
+	#d_sharing {display: none!important;}
+	.floatlabel-wrapper {
+		.floatlabel-label-active {display: none !important;}
+	}
+}
+
+#can_embed_form .floatlabel-wrapper .floatlabel-label-active {
+    display: none !important;
+}
+
+#gform_wrapper_1 {
+	&.gform_wrapper {
+		ul{
+			li {
+				&.gfield {margin-top: 0;}
+			}	
+		}
+		
+	.gform_body {
+		@include media('>=992px') {width: 66.66%; float:left; clear: none!important;}
+		li {padding-right: 0;
+			@include media('>=992px') {width: 50%; float:left; clear: none!important; margin-top: 13px!important; padding-right: 16px;}
+			input {border-radius: 20px; border: solid 1px #fff; padding-left: 1rem;}
+		}
+	}
+	.gform_footer { margin-top: .3rem;
+		@include media('>=992px') {width: 33.33%; float:left; clear: none!important; margin-top: 16px;}
+	
+				label {display: none;}
+		
+				input {
+					&.button  {color: $grey_20; width: 100%; height: 42px; background: $yellow_1; border: solid 1px $yellow_1; border-radius: 20px; margin-bottom: 0;
+						&:hover {background: $yellow_5;}
+					}
+					}
+				input[type="submit"] {width: 100%; height: 42px; background: $yellow_1; border: solid 1px $yellow_1; color: $grey_20; border-radius: 20px; margin-bottom: 0;}
+			}
+
+	}
+
+}
+
+.form-wrap {
+	
+		.gform_confirmation_message {color: $yellow_1; font-size: 1.2rem;}
+		
+}
+
+#gform_wrapper_4 {
+	&.gform_wrapper {
+		
+		.gform_footer { 
+
+					input {
+						&.button  {color: $white_5; width: 180px; height: 42px; background: $blue_5; border: solid 1px $blue_5; border-radius: 20px; margin-bottom: 0;
+							&:hover {color: $grey_20; background: $yellow_5; border: solid 1px $yellow_5;}
+						}
+						}
+					input[type="submit"] {width: 180px; height: 42px; background: $blue_5;; border: solid 1px $blue_5; color: $white_5; border-radius: 20px; margin-bottom: 0;
+							&:hover {color: $grey_20; background: $yellow_5; border: solid 1px $yellow_5;}
+						}
+		}
+		
+	}
+}
+
+.gform_confirmation_message_4{
+	&.gform_confirmation_message {
+	background: #fff;
+	padding: 1rem;
+	font-size: 1.2rem;
+	border-radius: 4px;
+	}
+}
+
+

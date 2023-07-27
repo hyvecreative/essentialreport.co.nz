@@ -1,0 +1,118 @@
+@media (min-width: 992px) {	
+	#header {z-index: 10; width: 100%; 
+		.home-header {background: transparent;}
+}
+}
+
+.menu-ft {
+	ul{margin: .4rem 0; padding-left: 0;
+	&#mymenu {display: block;
+		li {list-style: none; padding: .2rem 0;
+			&:first-child {}
+			a {text-transform: none; font-weight: $bold; color: $white_5; }
+		}
+		
+		}
+}
+}
+
+#logo {width: 140px; background: #fff; transition: all .3s ease-out;
+	@include media('>=992px') {width: 180px;}
+	&.logo-active {background: transparent;}
+	a{
+		&.er-logo{display: inline-block; height: 35px;}
+		img {height: 100%; width: auto;}
+	}
+}
+
+@media (min-width: 992px) {	
+	#logo {padding: 0 .75rem;
+		&.logo-active {}
+		a{
+			&.er-logo{height: 55px;}
+		}
+	}
+	
+}
+
+/* Menus */
+
+.scroll-to-top {
+	i {color:$white_5;
+		&:hover{color:$green_3;}
+	}
+}
+
+/* MAin nav PC */
+
+.navbar-expand-lg {
+	.navbar-nav {
+	.nav-link {
+		@include media('>=992px') {padding-right: 1rem; padding-left: 1rem;}
+		}
+	}
+}
+
+/* Hamburger close cross version 2 */
+
+.menu-btn {
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  /* border: 3px solid #fff; */
+}
+.menu-btn__burger {
+  width: 24px;
+  height: 3px;
+  background: #999;
+  border-radius: 2px;
+  /* box-shadow: 0 2px 5px rgba(255,101,47,.2);*/
+  transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 3px;
+  background: #999;
+  border-radius: 2px;
+  /*box-shadow: 0 2px 5px rgba(255,101,47,.2); */
+  transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before {
+  transform: translateY(-8px);
+}
+.menu-btn__burger::after {
+  transform: translateY(8px);
+}
+/* ANIMATION */
+.menu-btn.open .menu-btn__burger {
+  transform: translateX(-24px);
+  background: transparent;
+  box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(17px, -17px);
+}
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(17px, 17px);
+}
+
+.menu-item-182 { /* dev */
+	ul {left: auto; right: 0;}
+}
+
+.menu-item-90 {
+	ul {left: auto; right: 0;}
+}
+
+
+
+

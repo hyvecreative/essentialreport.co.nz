@@ -1,0 +1,468 @@
+.st4 {
+	opacity: .8;
+  	stroke-dasharray: 1291.3961181640625;
+	stroke-dashoffset: 1291.3961181640625;
+	animation: dash 13s linear forwards;
+	animation-delay: 2s;
+}
+	
+	@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+	
+.st5 {
+	opacity: .8;
+  	stroke-dasharray: 1290.3807373046875;
+	stroke-dashoffset: 1290.3807373046875;
+	animation: dash 12s linear forwards;
+	animation-delay: 2s;
+}
+	
+	@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.st6 {
+	opacity: .8;
+  	stroke-dasharray: 1291.3961181640625;
+	stroke-dashoffset: 1291.3961181640625;
+	animation: dash 13s linear forwards;
+	animation-delay: 1s;
+}
+	
+	@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.st7 {
+	opacity: .8;
+  	stroke-dasharray: 1290.3807373046875;
+	stroke-dashoffset: 1290.3807373046875;
+	animation: dash 12s linear forwards;
+	animation-delay: 1s;
+}
+	
+	@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+.st0{fill:none;}
+.st1{fill:none;stroke:#AFAFAF;stroke-width:0.5;stroke-miterlimit:10;stroke-dasharray:3.9847,3.9847;}
+.st2{fill:none;stroke:#AFAFAF;stroke-miterlimit:10;stroke-dasharray:3.9847,3.9847;}
+.st3{fill:none;stroke:#AFAFAF;stroke-miterlimit:10;}
+.st4{fill:none;stroke:#036fb8;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;
+@include media('>=480px') {stroke-width:1.25;}
+}
+
+.st5{fill:none;stroke:#024968;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;
+@include media('>=480px') {stroke-width:1.25;}
+}
+.st6{fill:none;stroke:#036fb8;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;
+@include media('>=480px') {stroke-width:1.25;}
+}
+.st7{fill:none;stroke:#ce4141;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;
+@include media('>=480px') {stroke-width:1.25;}
+}
+
+
+/* NZ animation */
+
+
+.stA {
+	opacity: .8;
+  	stroke-dasharray: 589.6714477539062;
+	stroke-dashoffset: 589.6714477539062;
+	animation: dash 13s linear forwards;
+	animation-delay: 1s;
+}
+	
+	@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.stB {
+	opacity: .8;
+  	stroke-dasharray: 594.7357177734375;
+	stroke-dashoffset: 594.7357177734375;
+	animation: dash 12s linear forwards;
+	animation-delay: 1s;
+}
+	
+	@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.stC {
+	opacity: .8;
+  	stroke-dasharray: 553.0859375;
+	stroke-dashoffset: 553.0859375;
+	animation: dash 13s linear forwards;
+	animation-delay: 1s;
+}
+	
+	@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.stD {
+	opacity: .8;
+  	stroke-dasharray: 546.1912231445312;
+	stroke-dashoffset: 546.1912231445312;
+	animation: dash 12s linear forwards;
+	animation-delay: 1s;
+}
+	
+	@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+.stA{fill:none;stroke:#ce4141;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;
+@include media('>=480px') {stroke-width:1.25;}
+}
+.stB{fill:none;stroke:#036fb8;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;
+@include media('>=480px') {stroke-width:1.25;}
+}
+
+.stC{fill:none;stroke:#558236;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;
+@include media('>=480px') {stroke-width:1.25;}
+}
+.stD{fill:none;stroke:#ffc000;stroke-width:2.25;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:10;
+@include media('>=480px') {stroke-width:1.25;}
+}
+
+
+/* Pie chart animation */
+
+.subscribe {
+
+	svg {
+	  display: block;
+	  height: 100%;
+	  width: 100%;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  overflow: visible;
+	}
+
+	figure {
+		&.pie-large {  position: absolute; bottom: -2rem; right: 8rem; display: block; height: 250px; margin: 0 auto; width: 250px;
+			@include media('>=480px') {right: 10rem;}
+			circle {
+			  fill:rgba(0,0,0,0);
+			  stroke-width:31.8309886184;
+			  stroke-dasharray: 0,0,0,100;
+			  stroke-dashoffset: 25;
+			  -webkit-animation: pie1 3s infinite ease both;
+			  animation: pie1 9s infinite ease both;
+				&.pie1 {
+				  stroke:rgba(255,255,255, .12);
+				}
+				&.pie2 {
+				  stroke:rgba(255,255,255, .18);
+				  -webkit-animation-name: pie2;
+				  animation-name: pie2;
+				}
+				&.pie3 {
+				  stroke:rgba(255,255,255, .31);
+				  -webkit-animation-name: pie3;
+				  animation-name: pie3;
+				}
+				&.pie4 {
+				  stroke:rgba(255,255,255, .4);
+				  -webkit-animation-name: pie4;
+				  animation-name: pie4;
+				}
+
+				/*
+				 pie percentage made by stroke-dasharray.
+				 stroke-dasharray format is...
+
+				 keyframe 100% : 0 offset this-percentage rest
+
+				 I added keyframe 50% for infinite presentation.
+				*/
+
+				/* 1st pie is 40% */
+				@-webkit-keyframes pie1 {
+				  50%,100% {stroke-dasharray: 40,60,0,0;}
+				}
+				@keyframes pie1 {
+				  50%,100% {stroke-dasharray: 40,60,0,0;}
+				}
+				/* 2nd pie is 30% */
+				@-webkit-keyframes pie2 {
+				  50%,100% {stroke-dasharray: 0,40,30,30;}
+				}
+				@keyframes pie2 {
+				  50%,100% {stroke-dasharray: 0,40,30,30;}
+				}
+				/* 3rd pie is 30% */
+				@-webkit-keyframes pie3 {
+				  50%,100% {stroke-dasharray: 0,70,20,10;}
+				}
+				@keyframes pie3 {
+				  50%,100% {stroke-dasharray: 0,70,20,10;}
+				}
+				/* 4th pie is 10% */
+				@-webkit-keyframes pie4 {
+				  50%,100% {stroke-dasharray: 0,90,10,0;}
+				}
+				@keyframes pie4 {
+				  50%,100% {stroke-dasharray: 0,90,10,0;}
+				}
+
+			}
+		}
+	}
+
+	figure {
+		&.pie-small {  position: absolute; bottom: 9rem; right: 1rem; display: block; height: 120px; margin: 0 auto; width: 120px;
+			@include media('>=480px') {right: 2rem;}
+			circle {
+			  fill:rgba(0,0,0,0);
+			  stroke-width:31.8309886184;
+			  stroke-dasharray: 0,0,0,100;
+			  stroke-dashoffset: 25;
+			  -webkit-animation: pie5 5s 1s infinite ease both;
+			  animation: pie5 8s 1s infinite ease both;
+				&.pie5 {
+				  stroke:rgba(255,255,255, .08);
+				}
+				&.pie6 {
+				  stroke:rgba(255,255,255, .15);
+				  -webkit-animation-name: pie6;
+				  animation-name: pie6;
+				}
+				&.pie7 {
+				  stroke:rgba(255,255,255, .25);
+				  -webkit-animation-name: pie7;
+				  animation-name: pie7;
+				}
+				&.pie8 {
+				  stroke:rgba(255,255,255, .31);
+				  -webkit-animation-name: pie8;
+				  animation-name: pie8;
+				}
+				&.pie9 {
+				  stroke:rgba(255,255,255, .40);
+				  -webkit-animation-name: pie9;
+				  animation-name: pie9;
+				}
+
+				/*
+				 pie percentage made by stroke-dasharray.
+				 stroke-dasharray format is...
+
+				 keyframe 100% : 0 offset this-percentage rest
+
+				 I added keyframe 50% for infinite presentation.
+				*/
+
+				/* 1st pie is 30% */
+				@-webkit-keyframes pie5 {
+				  50%,100% {stroke-dasharray: 30,70,0,0;}
+				}
+				@keyframes pie5 {
+				  50%,100% {stroke-dasharray: 30,70,0,0;}
+				}
+				/* 2nd pie is 20% */
+				@-webkit-keyframes pie6 {
+				  50%,100% {stroke-dasharray: 0,30,20,50;}
+				}
+				@keyframes pie6 {
+				  50%,100% {stroke-dasharray: 0,30,20,50;}
+				}
+				/* 3nd pie is 30% */
+				@-webkit-keyframes pie7 {
+				  50%,100% {stroke-dasharray: 0,50,30,20;}
+				}
+				@keyframes pie7 {
+				  50%,100% {stroke-dasharray: 0,50,30,20;}
+				}
+				/* 3rd pie is 30% */
+				@-webkit-keyframes pie8 {
+				  50%,100% {stroke-dasharray: 0,80,10,10;}
+				}
+				@keyframes pie8 {
+				  50%,100% {stroke-dasharray: 0,80,10,10;}
+				}
+				/* 4th pie is 10% */
+				@-webkit-keyframes pie9 {
+				  50%,100% {stroke-dasharray: 0,90,10,0;}
+				}
+				@keyframes pie9 {
+				  50%,100% {stroke-dasharray: 0,90,10,0;}
+				}
+
+			}
+		}
+	}
+
+	
+}
+
+.bar-chart {
+	
+	figure {
+    position: absolute;
+    bottom: 0;
+    right: 2rem;
+    display: block;
+    height: 350px;
+    margin: 0 auto;
+    width: 350px;
+		
+	svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+    overflow: visible;
+
+	
+	.st11 {
+	opacity: 1;
+  	stroke-dasharray: 55.70000457763672;
+	stroke-dashoffset: 55.70000457763672;
+	animation: dash 3s linear forwards;
+}
+	
+	@keyframes dash {
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+	
+.st12 {
+	opacity: 1;
+  	stroke-dasharray: 69.60000610351562;
+	stroke-dashoffset: 69.60000610351562;
+	animation: dash 3s linear forwards;
+}
+	
+	@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+	
+.st13 {
+	opacity: 1;
+  	stroke-dasharray: 140.10000610351562;
+	stroke-dashoffset: 140.10000610351562;
+	animation: dash 3s linear forwards;
+}
+	
+	@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+	
+.st14 {
+	opacity: 1;
+  	stroke-dasharray: 95.80000305175781;
+	stroke-dashoffset: 95.80000305175781;
+	animation: dash 3s linear forwards;
+}
+	
+	@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+	
+.st15 {
+	opacity: 1;
+  	stroke-dasharray: 16;
+	stroke-dashoffset: 16;
+	animation: dash 2s linear forwards;
+}
+	
+	@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+	
+.flag {opacity: 0;}
+	
+	.flag {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	}
+	.move-up {
+		animation-name: moveup;
+		animation-timing-function: ease;
+	}
+
+	@keyframes moveup {
+	  0%  { transform: translateY(0); opacity: 0; }
+	  30% { transform: translateY(-90px); opacity: 1; }
+	  90% { transform: translateY(-90px); opacity: 1; }
+	  100%  { transform: translateY(0); opacity: 0; }
+	}
+			
+	}
+		
+	}
+
+}
+
+/* animate based text animations */
+
+@-webkit-keyframes fadeInUpSmall {
+ 0% {
+  opacity:0;
+  -webkit-transform:translate3d(0,25%,0);
+  transform:translate3d(0,25%,0)
+ }
+ to {
+  opacity:1;
+  -webkit-transform:translateZ(0);
+  transform:translateZ(0)
+ }
+}
+@keyframes fadeInUpSmall {
+ 0% {
+  opacity:0;
+  -webkit-transform:translate3d(0,25%,0);
+  transform:translate3d(0,25%,0)
+ }
+ to {
+  opacity:1;
+  -webkit-transform:translateZ(0);
+  transform:translateZ(0)
+ }
+}
+.animate__fadeInUpSmall {
+ -webkit-animation-name:fadeInUpSmall;
+ animation-name:fadeInUpSmall
+}
+
+
