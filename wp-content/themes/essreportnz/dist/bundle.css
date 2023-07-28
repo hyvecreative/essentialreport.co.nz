@@ -274,26 +274,20 @@ a#scroll-to-top {
         color: #fff; }
 
 #logo {
-  width: 140px;
-  background: #fff;
+  height: 50px;
   transition: all .3s ease-out; }
   @media (min-width: 992px) {
     #logo {
-      width: 180px; } }
+      height: 70px; } }
   #logo.logo-active {
     background: transparent; }
-  #logo a.er-logo {
-    display: inline-block;
-    height: 35px; }
-  #logo a img {
+  #logo a.era-logo img {
     height: 100%;
+    width: auto;
+    margin-right: .5rem; }
+  #logo a.er-logo img {
+    height: 60%;
     width: auto; }
-
-@media (min-width: 992px) {
-  #logo {
-    padding: 0 .75rem; }
-    #logo a.er-logo {
-      height: 55px; } }
 
 /* Menus */
 .scroll-to-top i {
