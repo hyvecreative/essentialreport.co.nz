@@ -78,7 +78,7 @@
 			</div>
 			
 			<div id="logo" class="er-logo-wrap">
-				<a href="<?php bloginfo('url'); ?>/" class="era-logo"><img src="<?php bloginfo('template_directory'); ?>/images/ER-aotearoa-logo-sq-rev.png" alt="The Essential Report Aotearoa" /></a>
+				<a href="<?php bloginfo('url'); ?>/" class="era-logo"><img src="<?php bloginfo('template_directory'); ?>/images/ER-aotearoa-logo-long.png" alt="The Essential Report Aotearoa" /></a>
 				<a href="<?php bloginfo('url'); ?>/" class="er-logo"><img src="<?php bloginfo('template_directory'); ?>/images/er-logo.svg" alt="Essential Research" /></a>
 			</div>
 			

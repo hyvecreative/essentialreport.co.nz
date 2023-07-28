@@ -62,7 +62,6 @@ Template Name: holding-temp
 <div class="container-fluid text-center" style="position: relative; margin-top: 20%;">
 
 <h1>New website coming soon!</h1><br>
-<a style="color: #4d4d4d; font-size: 1.2rem; text-decoration: underline;" href="https://essentialvision.com.au/category/essentialreport">You can still view the old website here</a>
 
 <div>
 

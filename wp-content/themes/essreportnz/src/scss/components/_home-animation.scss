@@ -81,7 +81,7 @@
 	opacity: .8;
   	stroke-dasharray: 589.6714477539062;
 	stroke-dashoffset: 589.6714477539062;
-	animation: dash 13s linear forwards;
+	animation: dash 9s linear forwards;
 	animation-delay: 1s;
 }
 	
@@ -95,7 +95,7 @@
 	opacity: .8;
   	stroke-dasharray: 594.7357177734375;
 	stroke-dashoffset: 594.7357177734375;
-	animation: dash 12s linear forwards;
+	animation: dash 9s linear forwards;
 	animation-delay: 1s;
 }
 	
@@ -109,13 +109,13 @@
 	opacity: .8;
   	stroke-dasharray: 553.0859375;
 	stroke-dashoffset: 553.0859375;
-	animation: dash 13s linear forwards;
+	animation: dash 9s linear forwards;
 	animation-delay: 1s;
 }
 	
 	@keyframes dash {
   0% {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 4;
   }
 }
 
@@ -123,7 +123,7 @@
 	opacity: .8;
   	stroke-dasharray: 546.1912231445312;
 	stroke-dashoffset: 546.1912231445312;
-	animation: dash 12s linear forwards;
+	animation: dash 9s linear forwards;
 	animation-delay: 1s;
 }
 	

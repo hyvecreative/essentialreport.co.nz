@@ -66,7 +66,8 @@
 		@include media('>=1460px') {top: 5rem;}
 		@include media('>=1680px') {top: 6rem;}
 	h1 {color: #333; font-size: 1.75rem; line-height: 1.05; margin-top: 1rem;
-		@include media('>=992px') {font-size: 2.4rem;}
+		@include media('>=768px') {font-size: 2.4rem;}
+		@include media('>=992px') {font-size: 2.2rem;}
 		@include media('>=1200px') {font-size: 3.5rem; width: 80%;}
 		span {font-family: serif; color: #00aced;}
 	}
