@@ -369,115 +369,6 @@ a#scroll-to-top {
   left: auto;
   right: 0; }
 
-.st4 {
-  opacity: .8;
-  stroke-dasharray: 1291.3961181640625;
-  stroke-dashoffset: 1291.3961181640625;
-  animation: dash 13s linear forwards;
-  animation-delay: 2s; }
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0; } }
-
-.st5 {
-  opacity: .8;
-  stroke-dasharray: 1290.3807373046875;
-  stroke-dashoffset: 1290.3807373046875;
-  animation: dash 12s linear forwards;
-  animation-delay: 2s; }
-
-@keyframes dash {
-  0% {
-    stroke-dashoffset: 0; } }
-
-.st6 {
-  opacity: .8;
-  stroke-dasharray: 1291.3961181640625;
-  stroke-dashoffset: 1291.3961181640625;
-  animation: dash 13s linear forwards;
-  animation-delay: 1s; }
-
-@keyframes dash {
-  0% {
-    stroke-dashoffset: 0; } }
-
-.st7 {
-  opacity: .8;
-  stroke-dasharray: 1290.3807373046875;
-  stroke-dashoffset: 1290.3807373046875;
-  animation: dash 12s linear forwards;
-  animation-delay: 1s; }
-
-@keyframes dash {
-  0% {
-    stroke-dashoffset: 0; } }
-
-.st0 {
-  fill: none; }
-
-.st1 {
-  fill: none;
-  stroke: #AFAFAF;
-  stroke-width: 0.5;
-  stroke-miterlimit: 10;
-  stroke-dasharray: 3.9847,3.9847; }
-
-.st2 {
-  fill: none;
-  stroke: #AFAFAF;
-  stroke-miterlimit: 10;
-  stroke-dasharray: 3.9847,3.9847; }
-
-.st3 {
-  fill: none;
-  stroke: #AFAFAF;
-  stroke-miterlimit: 10; }
-
-.st4 {
-  fill: none;
-  stroke: #036fb8;
-  stroke-width: 2.25;
-  stroke-linecap: round;
-  stroke-linejoin: bevel;
-  stroke-miterlimit: 10; }
-  @media (min-width: 480px) {
-    .st4 {
-      stroke-width: 1.25; } }
-
-.st5 {
-  fill: none;
-  stroke: #024968;
-  stroke-width: 2.25;
-  stroke-linecap: round;
-  stroke-linejoin: bevel;
-  stroke-miterlimit: 10; }
-  @media (min-width: 480px) {
-    .st5 {
-      stroke-width: 1.25; } }
-
-.st6 {
-  fill: none;
-  stroke: #036fb8;
-  stroke-width: 2.25;
-  stroke-linecap: round;
-  stroke-linejoin: bevel;
-  stroke-miterlimit: 10; }
-  @media (min-width: 480px) {
-    .st6 {
-      stroke-width: 1.25; } }
-
-.st7 {
-  fill: none;
-  stroke: #ce4141;
-  stroke-width: 2.25;
-  stroke-linecap: round;
-  stroke-linejoin: bevel;
-  stroke-miterlimit: 10; }
-  @media (min-width: 480px) {
-    .st7 {
-      stroke-width: 1.25; } }
-
 /* NZ animation */
 .stA {
   opacity: .8;
@@ -517,6 +408,28 @@ a#scroll-to-top {
   stroke-dasharray: 546.1912231445312;
   stroke-dashoffset: 546.1912231445312;
   animation: dash 9s linear forwards;
+  animation-delay: 1s; }
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 0; } }
+
+.stE {
+  opacity: .8;
+  stroke-dasharray: 1047.43017578125;
+  stroke-dashoffset: 1047.43017578125;
+  animation: dash 8.5s linear forwards;
+  animation-delay: 1s; }
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 0; } }
+
+.stF {
+  opacity: .8;
+  stroke-dasharray: 1368.6630859375;
+  stroke-dashoffset: 1368.6630859375;
+  animation: dash 10.5s linear forwards;
   animation-delay: 1s; }
 
 @keyframes dash {
@@ -566,6 +479,28 @@ a#scroll-to-top {
   @media (min-width: 480px) {
     .stD {
       stroke-width: 1.25; } }
+
+.stE {
+  fill: none;
+  stroke: #D9DCDD;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10; }
+  @media (min-width: 480px) {
+    .stE {
+      stroke-width: .5; } }
+
+.stF {
+  fill: none;
+  stroke: #D9DCDD;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10; }
+  @media (min-width: 480px) {
+    .stF {
+      stroke-width: .5; } }
 
 /* Pie chart animation */
 .subscribe svg {

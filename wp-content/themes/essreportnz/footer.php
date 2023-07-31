@@ -72,7 +72,7 @@ menuBtn.addEventListener('click', () => {
 </script>
 
 <script>
-		var path = document.querySelector('.stD');
+		var path = document.querySelector('.stE');
 		var length = path.getTotalLength();
 		console.log(length);
 </script>
