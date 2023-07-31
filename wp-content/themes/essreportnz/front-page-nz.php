@@ -366,7 +366,7 @@ if( $insights && in_array('show', $insights) ) { ?>
 	.st14{fill:none;stroke:#013f51;stroke-width:44;stroke-miterlimit:10;}
 	.st15{fill:none;stroke:#0c4755;stroke-width:44;stroke-miterlimit:10;}
 </style>
-<g class="flag move-up">
+<g class="flag move-up" style="fill: rgba(255,255,255,.25);">
 <path class="st0" d="M124.5,119.2c0,0-11.2,0.1-13.9,0.1s-13.5-0.1-13.5-0.1V117c0,0,10.9,0,13.7,0s13.7,0,13.7,0V119.2z"/>
 <path class="st0" d="M123.2,116.3c0,0-10.1,0-12.4,0c-2.4,0-12.4,0-12.4,0v-2.4c0,0,9.9-0.4,12.4-0.4c2.5,0,12.4,0.4,12.4,0.4V116.3
 	z"/>
