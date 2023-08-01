@@ -412,9 +412,9 @@ if( $insights && in_array('show', $insights) ) { ?>
 	</div>
 </div>
 
-<div class="container-fluid political-insights"  style="padding-top: 0;">
+<div class="container-fluid political-insights">
 	
-		<div class="arrow-down arrow_insights" style="border-top: 40px solid #083444; margin: 0 auto;"></div>
+		<div class="arrow-down arrow_insights"></div>
 
 	<div class="container">
 		<div class="row">
@@ -440,8 +440,6 @@ if( $insights && in_array('show', $insights) ) { ?>
 			</div>
 	</div>
 </div>
-<img class="port-pm" src="<?php bloginfo('template_directory'); ?>/images/peter-dutton.png" alt="Peter Dutton" />
-<img class="port-opp" src="<?php bloginfo('template_directory'); ?>/images/anthony-albanese.png" alt="Anthony Albanese" />
 </div>
 
 <!-- end Political Insights -->
@@ -501,67 +499,9 @@ if( $insights && in_array('show', $insights) ) { ?>
 </div> <!-- end new content  -->	
 </div> <!-- end new content  -->
 
-
-<div class="container-fluid insights-related" style="padding-top: 0;">
-	<div class="arrow-down" style="margin-bottom: 2rem; border-top: 40px solid #fff;"></div>
- 
-	<div class="container">
-		<div class="row">
-			
-		 <div class="col-lg-6" style="margin-bottom: 1.5rem;">
-			 
-			 <h3><?php the_field('poll_position_title') ?></h3>
-			 
-			 <div class="row">
-			 
-			 <div class="col-sm-6">
-				 <?php 
-				$image = get_field('poll_position_image');
-				if( !empty( $image ) ): ?>
-					<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-			<?php endif; ?>
-			 </div>
-			 
-			 <div class="col-sm-6 p-position-text">
-			 
-			 <p style="margin-top: 0;"><?php the_field('poll_position_text') ?></p>
-			 
-			 
-				 
-			 </div>
-				 
-			<div class="col-12">
-					 <div class="text-center"><a class="btn btn-dark" href="<?php the_field('pp_button_url') ?>"><?php the_field('pp_button_text') ?> <i class="fas fa-chevron-right" aria-hidden="true"></i></a></div>
-			 </div>
-				 
-				 
-			</div>
-			 
-			</div>
-			
-		<div class="col-lg-6">
-			
-			<h3><?php the_field('policical_analysis_title') ?></h3>
-			
-			  <?php 
-				$image = get_field('analysis_pic');
-				if( !empty( $image ) ): ?>
-					<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-			  <?php endif; ?>
-			
-			<p class="image-credit"><?php the_field('image_credit') ?></p>
-			
-			<div class="text-center" style="margin-top: .5rem;"><a class="btn btn-dark" href="<?php the_field('pa_button_url') ?>"><?php the_field('pa_button_text') ?> <i class="fas fa-chevron-right" aria-hidden="true"></i></a></div>
-		</div>
-			
-		</div>
-	</div>
-</div>
-
-
 <div class="container-fluid subscribe" style="padding-top: 0;">	
 	
-	<div class="arrow-down"></div>
+	<div class="arrow-down" style="margin-bottom: 2rem; border-top: 40px solid #fff;"></div>
 
 	<div class="container">
 		<div class="row">
@@ -615,16 +555,6 @@ if( $insights && in_array('show', $insights) ) { ?>
 		</div>
 			<div class="col-12">
 			<?php get_template_part( 'partials/content', 'news-feed' ); ?>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid purchase-spruik" style="display: none; padding: 6rem 0 7rem;">	
-	<div class="container">
-		<div class="col-12 text-center">
-			<h2>Essential Spruik</h2>
-			<p>Content...</p>
-			<a class="btn btn-banner" href="#">Visit Essential</a>
 		</div>
 	</div>
 </div>

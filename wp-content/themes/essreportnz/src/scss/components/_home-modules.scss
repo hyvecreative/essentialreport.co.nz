@@ -30,7 +30,7 @@
 /* home intro */
 
 .latest-reports-hm {background: $paleblue;
-@include media('>=768px') {background: $paleblue url('/wp-content/themes/essentialreportdev/images/dots-panel-4.png') no-repeat right bottom;}
+@include media('>=768px') {background: $paleblue url('/wp-content/themes/essreportnz/images/dots-panel-4.png') no-repeat right bottom;}
 }
 
 .hm-header-wrap {position: relative;}
@@ -124,7 +124,7 @@
     border-top: 40px solid #E9F2F4;
 	margin: 0 auto 2rem;
 	
-	&.arrow_insights {border-top: 40px solid #15162e;
+	&.arrow_insights {border-top: 40px solid #038de6;
 	@include media('>=1680px') {border-top: 40px solid #007ce9;}
 	}
 }
@@ -145,9 +145,9 @@ h3 {
 
 /* Political Polling */
 
-.political-insights {background: $blue_10 url("/wp-content/themes/essentialreportdev/images/pol-insights-bg.jpg") bottom center repeat-x; background-size: cover; padding: 3rem 0 13rem; min-height: 400px; position: relative; transition: all .8s ease-out; overflow: hidden;
+.political-insights {background: $blue_10 url("/wp-content/themes/essreportnz/images/pol-insights-bg.jpg") center center repeat-x; background-size: cover; padding: 3rem 0 13rem; min-height: 400px; position: relative; transition: all .8s ease-out; overflow: hidden;
 	
-	@include media('>=1680px') {padding: 3rem 0 5rem;} 
+	@include media('>=1680px') {padding: 4rem 0 8rem;} 
 
 	h2 {color: #fff;
 		@include media('>=992px') {font-size: 3em;}
@@ -179,10 +179,19 @@ h3 {
 	}
 }
 
+.political-insights {padding-top: 0rem;
+	@include media('<=767px') {padding-top: 2rem;}
+	.arrow-down {
+		&.arrow_insights {border-top: 40px solid #083444; margin: 0 auto;
+			@include media('<=767px') {display: none;}
+		}
+	}
+}
+
 /*Insights Related */
 
 .insights-related {background: #E9F2F4; min-height: 400px; padding: 0 0 4rem;
-	@include media('>=768px') {background: $paleblue url('/wp-content/themes/essentialreportdev/images/dots-panel-2.png') no-repeat right bottom;}
+	@include media('>=768px') {background: $paleblue url('/wp-content/themes/essreportnz/images/dots-panel-2.png') no-repeat right bottom;}
 	
 	h3 {font-size: 1.1rem; color: $blue_5; text-decoration: underline; margin-bottom: 1rem;}
 
@@ -217,7 +226,7 @@ h3 {
 	
 }
 
-.bar-chart {background-color: #083444; padding: 0rem 2rem 15rem; position: relative; overflow: hidden;
+.bar-chart {background-color: #083444; padding: 0rem 2rem 18rem; position: relative; overflow: hidden;
 	@include media('>=768px') {padding: 0rem 2rem 5rem;}
 	
 	h2 {background: -webkit-linear-gradient(315deg,#0e6bc2,#22bef9);
@@ -316,7 +325,7 @@ h2 {
 /*  Home Projects feed */
 
 .projects-wrap {background: #fff; padding: 2rem 0;
-	@include media('>=768px') {background: transparent url('/wp-content/themes/essentialreportdev/images/dots-panel-2.png') no-repeat right bottom;}
+	@include media('>=768px') {background: transparent url('/wp-content/themes/essreportnz/images/dots-panel-2.png') no-repeat right bottom;}
 	h2 {color: $blue_5; margin-bottom: 1rem;}
 	.project-intro-cont  {
 		p {padding: 0; line-height: 1.3; 
@@ -352,7 +361,7 @@ h2 {
 /*  Home News feed */
 
 .news-wrap {background: #fff; padding: 2rem 0;
-	@include media('>=768px') {background: transparent url('/wp-content/themes/essentialreportdev/images/dots-panel-2.png') no-repeat right bottom;}
+	@include media('>=768px') {background: transparent url('/wp-content/themes/essreportnz/images/dots-panel-2.png') no-repeat right bottom;}
 	h2 {color: $blue_5; margin-bottom: 2.5rem;}
 }
 
@@ -455,7 +464,7 @@ h2 {
 
 .accordion-wrap {position: relative;
 	&::before{
-	  content:url('/wp-content/themes/essentialreportdev/images/dots-pretext.png'); 
+	  content:url('/wp-content/themes/essreportnz/images/dots-pretext.png'); 
 	  position:absolute; 
 	  z-index:10; 
 	  left:-13rem;
