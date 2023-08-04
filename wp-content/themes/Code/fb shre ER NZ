@@ -1,0 +1,6 @@
+<!-- Your share button code -->
+								  
+						<?php the_permalink; ?>
+								  
+						<div class="fb-share-button" data-href="<?php echo get_permalink($post->ID);?>" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink; ?>%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+					<!-- Your share button code -->

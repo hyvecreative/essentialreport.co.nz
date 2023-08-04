@@ -124,8 +124,8 @@
     border-top: 40px solid #E9F2F4;
 	margin: 0 auto 2rem;
 	
-	&.arrow_insights {border-top: 40px solid #038de6;
-	@include media('>=1680px') {border-top: 40px solid #007ce9;}
+	&.arrow_insights {border-top: 40px solid #0b0d18;
+	@include media('>=1680px') {border-top: 40px solid #09caf3;}
 	}
 }
 
@@ -168,14 +168,14 @@ h3 {
 		p {font-size: 1rem; margin: 0;}
 	}
 	
-	.port-pm {position: absolute; left: 32%; bottom: 0; max-width: 260px;
+	.port-pm {position: absolute; left: 32%; bottom: 0; max-width: 235px;
 		@include media('>=560px') {left: 48%;}
-		@include media('>=1680px') {max-width: 400px; right: 4%; left: auto;}
+		@include media('>=1680px') {max-width: 300px; right: 2%; left: auto;}
 	}
 		
 	.port-opp {position: absolute; right: 32%; bottom: 0; max-width: 240px;
 		@include media('>=560px') {right: 48%;}
-		@include media('>=1680px') {max-width: 350px; left: 4%; right: auto;} 
+		@include media('>=1680px') {max-width: 300px; left: 3%; right: auto;} 
 	}
 }
 

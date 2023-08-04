@@ -1256,10 +1256,10 @@ a#scroll-to-top {
   border-top: 40px solid #E9F2F4;
   margin: 0 auto 2rem; }
   .arrow-down.arrow_insights {
-    border-top: 40px solid #038de6; }
+    border-top: 40px solid #0b0d18; }
     @media (min-width: 1680px) {
       .arrow-down.arrow_insights {
-        border-top: 40px solid #007ce9; } }
+        border-top: 40px solid #09caf3; } }
 
 /* Report list */
 h2.report-title {
@@ -1320,14 +1320,14 @@ h3.report-date {
     position: absolute;
     left: 32%;
     bottom: 0;
-    max-width: 260px; }
+    max-width: 235px; }
     @media (min-width: 560px) {
       .political-insights .port-pm {
         left: 48%; } }
     @media (min-width: 1680px) {
       .political-insights .port-pm {
-        max-width: 400px;
-        right: 4%;
+        max-width: 300px;
+        right: 2%;
         left: auto; } }
   .political-insights .port-opp {
     position: absolute;
@@ -1339,8 +1339,8 @@ h3.report-date {
         right: 48%; } }
     @media (min-width: 1680px) {
       .political-insights .port-opp {
-        max-width: 350px;
-        left: 4%;
+        max-width: 300px;
+        left: 3%;
         right: auto; } }
 
 .political-insights {

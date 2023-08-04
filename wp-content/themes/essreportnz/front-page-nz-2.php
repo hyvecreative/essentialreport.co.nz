@@ -307,15 +307,7 @@ if( $insights && in_array('show', $insights) ) { ?>
 					<!-- start question share -->
 						<a class="copyToClipboard" style="font-size: .875rem; text-decoration: underline; cursor:pointer; margin-right: .5rem;" onclick="copyToClipboard('<?php echo get_permalink($post->ID);?>') ? this.innerText='Copied!': this.innerText='Sorry :(' ">Copy the direct link to this question</a>
 								  
-			        <!-- end question share-->
-								  
-					<!-- Your share button code -->
-								  
-						<?php the_permalink; ?>
-								  
-						<div class="fb-share-button" data-href="<?php echo get_permalink($post->ID);?>" data-layout="" data-size=""><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink; ?>%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-					<!-- Your share button code -->
-								  
+			        <!-- end question share-->								  
 								  
 					</div> <!-- end card body-->
     				</div>
@@ -447,8 +439,8 @@ if( $insights && in_array('show', $insights) ) { ?>
 			</div>
 	</div>
 </div>
-<img class="port-pm" src="<?php bloginfo('template_directory'); ?>/images/peter-dutton.png" alt="Peter Dutton" />
-<img class="port-opp" src="<?php bloginfo('template_directory'); ?>/images/anthony-albanese.png" alt="Anthony Albanese" />
+<img class="port-pm" src="<?php bloginfo('template_directory'); ?>/images/Christopher_Luxon_cc.png" alt="Chris Luxton" />
+<img class="port-opp" src="<?php bloginfo('template_directory'); ?>/images/Chris_Hipkins_cc.png" alt="Chris Hipkins" />
 </div>
 
 <!-- end Political Insights -->
@@ -507,63 +499,6 @@ if( $insights && in_array('show', $insights) ) { ?>
 	</div>  <!-- end row -->
 </div> <!-- end new content  -->	
 </div> <!-- end new content  -->
-
-
-<div class="container-fluid insights-related" style="padding-top: 0;">
-	<div class="arrow-down" style="margin-bottom: 2rem; border-top: 40px solid #fff;"></div>
- 
-	<div class="container">
-		<div class="row">
-			
-		 <div class="col-lg-6" style="margin-bottom: 1.5rem;">
-			 
-			 <h3><?php the_field('poll_position_title') ?></h3>
-			 
-			 <div class="row">
-			 
-			 <div class="col-sm-6">
-				 <?php 
-				$image = get_field('poll_position_image');
-				if( !empty( $image ) ): ?>
-					<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-			<?php endif; ?>
-			 </div>
-			 
-			 <div class="col-sm-6 p-position-text">
-			 
-			 <p style="margin-top: 0;"><?php the_field('poll_position_text') ?></p>
-			 
-			 
-				 
-			 </div>
-				 
-			<div class="col-12">
-					 <div class="text-center"><a class="btn btn-dark" href="<?php the_field('pp_button_url') ?>"><?php the_field('pp_button_text') ?> <i class="fas fa-chevron-right" aria-hidden="true"></i></a></div>
-			 </div>
-				 
-				 
-			</div>
-			 
-			</div>
-			
-		<div class="col-lg-6">
-			
-			<h3><?php the_field('policical_analysis_title') ?></h3>
-			
-			  <?php 
-				$image = get_field('analysis_pic');
-				if( !empty( $image ) ): ?>
-					<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-			  <?php endif; ?>
-			
-			<p class="image-credit"><?php the_field('image_credit') ?></p>
-			
-			<div class="text-center" style="margin-top: .5rem;"><a class="btn btn-dark" href="<?php the_field('pa_button_url') ?>"><?php the_field('pa_button_text') ?> <i class="fas fa-chevron-right" aria-hidden="true"></i></a></div>
-		</div>
-			
-		</div>
-	</div>
-</div>
 
 
 <div class="container-fluid subscribe" style="padding-top: 0;">	
@@ -729,12 +664,7 @@ body .question-show {
 
 </style>
 
-<script>/**
- * Copy a string to clipboard
- * @param  {String} string         The string to be copied to clipboard
- * @return {Boolean}               returns a boolean correspondent to the success of the copy operation.
- * @see https://stackoverflow.com/a/53951634/938822
- */
+<script>
 	
 function copyToClipboard(string) {
   let textarea;
