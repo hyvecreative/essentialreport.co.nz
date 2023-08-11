@@ -1278,7 +1278,7 @@ h3.report-date {
 .political-insights {
   background: #0388ba url("/wp-content/themes/essreportnz/images/pol-insights-bg.jpg") center center repeat-x;
   background-size: cover;
-  padding: 3rem 0 13rem;
+  padding: 3rem 0 14rem;
   min-height: 400px;
   position: relative;
   transition: all .8s ease-out;
@@ -1318,9 +1318,9 @@ h3.report-date {
       margin: 0; }
   .political-insights .port-pm {
     position: absolute;
-    left: 32%;
+    left: 43%;
     bottom: 0;
-    max-width: 235px; }
+    max-width: 225px; }
     @media (min-width: 560px) {
       .political-insights .port-pm {
         left: 48%; } }
@@ -1331,9 +1331,9 @@ h3.report-date {
         left: auto; } }
   .political-insights .port-opp {
     position: absolute;
-    right: 32%;
+    right: 41%;
     bottom: 0;
-    max-width: 240px; }
+    max-width: 235px; }
     @media (min-width: 560px) {
       .political-insights .port-opp {
         right: 48%; } }
@@ -2507,9 +2507,49 @@ h2.report-title {
     border-radius: 20px;
     margin-bottom: 0; }
 
+#gform_wrapper_1.gform_wrapper div.validation_error {
+  color: #E9F2F4;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff; }
+
+#gform_wrapper_1 div.validation_message {
+  color: #E9F2F4; }
+
 .form-wrap .gform_confirmation_message {
   color: #faec04;
   font-size: 1.2rem; }
+
+#gform_wrapper_2.gform_wrapper .gform_footer input.button {
+  color: #fff;
+  width: 180px;
+  height: 42px;
+  background: #00aced;
+  border: solid 1px #00aced;
+  border-radius: 20px;
+  margin-bottom: 0; }
+  #gform_wrapper_2.gform_wrapper .gform_footer input.button:hover {
+    color: #333333;
+    background: #fac904;
+    border: solid 1px #fac904; }
+
+#gform_wrapper_2.gform_wrapper .gform_footer input[type="submit"] {
+  width: 180px;
+  height: 42px;
+  background: #00aced;
+  border: solid 1px #00aced;
+  color: #fff;
+  border-radius: 20px;
+  margin-bottom: 0; }
+  #gform_wrapper_2.gform_wrapper .gform_footer input[type="submit"]:hover {
+    color: #333333;
+    background: #fac904;
+    border: solid 1px #fac904; }
+
+.gform_confirmation_message_4.gform_confirmation_message {
+  background: #fff;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 4px; }
 
 #gform_wrapper_4.gform_wrapper .gform_footer input.button {
   color: #fff;

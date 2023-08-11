@@ -145,7 +145,7 @@ h3 {
 
 /* Political Polling */
 
-.political-insights {background: $blue_10 url("/wp-content/themes/essreportnz/images/pol-insights-bg.jpg") center center repeat-x; background-size: cover; padding: 3rem 0 13rem; min-height: 400px; position: relative; transition: all .8s ease-out; overflow: hidden;
+.political-insights {background: $blue_10 url("/wp-content/themes/essreportnz/images/pol-insights-bg.jpg") center center repeat-x; background-size: cover; padding: 3rem 0 14rem; min-height: 400px; position: relative; transition: all .8s ease-out; overflow: hidden;
 	
 	@include media('>=1680px') {padding: 4rem 0 8rem;} 
 
@@ -168,12 +168,12 @@ h3 {
 		p {font-size: 1rem; margin: 0;}
 	}
 	
-	.port-pm {position: absolute; left: 32%; bottom: 0; max-width: 235px;
+	.port-pm {position: absolute; left: 43%; bottom: 0; max-width: 225px;
 		@include media('>=560px') {left: 48%;}
 		@include media('>=1680px') {max-width: 300px; right: 2%; left: auto;}
 	}
 		
-	.port-opp {position: absolute; right: 32%; bottom: 0; max-width: 240px;
+	.port-opp {position: absolute; right: 41%; bottom: 0; max-width: 235px;
 		@include media('>=560px') {right: 48%;}
 		@include media('>=1680px') {max-width: 300px; left: 3%; right: auto;} 
 	}

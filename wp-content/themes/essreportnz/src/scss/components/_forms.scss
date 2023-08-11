@@ -62,7 +62,17 @@
 					}
 				input[type="submit"] {width: 100%; height: 42px; background: $yellow_1; border: solid 1px $yellow_1; color: $grey_20; border-radius: 20px; margin-bottom: 0;}
 			}
+		
+		div {
+			&.validation_error {color: #E9F2F4;	
+								border-top: 2px solid #fff;
+								border-bottom: 2px solid #fff;}
+								}
 
+			}
+		
+	div {
+		&.validation_message {color: #E9F2F4;}
 	}
 
 }
@@ -71,6 +81,33 @@
 	
 		.gform_confirmation_message {color: $yellow_1; font-size: 1.2rem;}
 		
+}
+
+#gform_wrapper_2 {
+	&.gform_wrapper {
+		
+		.gform_footer { 
+
+					input {
+						&.button  {color: $white_5; width: 180px; height: 42px; background: $blue_5; border: solid 1px $blue_5; border-radius: 20px; margin-bottom: 0;
+							&:hover {color: $grey_20; background: $yellow_5; border: solid 1px $yellow_5;}
+						}
+						}
+					input[type="submit"] {width: 180px; height: 42px; background: $blue_5;; border: solid 1px $blue_5; color: $white_5; border-radius: 20px; margin-bottom: 0;
+							&:hover {color: $grey_20; background: $yellow_5; border: solid 1px $yellow_5;}
+						}
+		}
+		
+	}
+}
+
+.gform_confirmation_message_4{
+	&.gform_confirmation_message {
+	background: #fff;
+	padding: 1rem;
+	font-size: 1.2rem;
+	border-radius: 4px;
+	}
 }
 
 #gform_wrapper_4 {

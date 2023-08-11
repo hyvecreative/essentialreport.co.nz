@@ -22,7 +22,7 @@
 
 							<div class="excerpthm"><p><?php the_sub_field('exerpt'); ?></p></div>
 								
-							<a href="<?php the_sub_field('tag_url'); ?>">Read more <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+							<a href="<?php the_sub_field('link_url'); ?>">Read more <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
 								
 			</div><!-- END feeditem-->
 										
