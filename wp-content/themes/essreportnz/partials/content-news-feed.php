@@ -35,7 +35,7 @@
 		
 	
 				<div class="col-12 text-center" style="margin-top: 2rem;">
-					<a style="margin: 0 .5rem 1rem;" class="btn" href="https://www.theguardian.com/australia-news/essential-poll" class="btn btn-banner">The Guardian Analysis  <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+					<a style="margin: 0 .5rem 1rem;" class="btn" href="https://www.theguardian.com/world/essential-poll-new-zealand" class="btn btn-banner">The Guardian Analysis  <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
 				</div>
 	
 </div>	

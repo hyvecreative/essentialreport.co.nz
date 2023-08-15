@@ -57,26 +57,6 @@
 
 <?= wp_footer() ?> 
 
-<script>
-	const menuBtn = document.querySelector('.menu-btn');
-let menuOpen = false;
-menuBtn.addEventListener('click', () => {
-  if(!menuOpen) {
-    menuBtn.classList.add('open');
-    menuOpen = true;
-  } else {
-    menuBtn.classList.remove('open');
-    menuOpen = false;
-  }
-});// JavaScript Document
-</script>
-
-<script>
-		var path = document.querySelector('.stE');
-		var length = path.getTotalLength();
-		console.log(length);
-</script>
-
 </body>
 
 </html>

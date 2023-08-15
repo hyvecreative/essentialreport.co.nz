@@ -1,0 +1,5 @@
+<script>
+		var path = document.querySelector('.stE');
+		var length = path.getTotalLength();
+		console.log(length);
+</script>

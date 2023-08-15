@@ -24,10 +24,8 @@
 	
 		wp_enqueue_script( 'popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js', array('jquery'), null, true);
 		wp_enqueue_script( 'bootstrap4', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js', array('jquery'), null, true);
-	    wp_enqueue_script( 'popper', "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js", array('jquery'), null, true);
-		wp_enqueue_script( 'scrollTo', $template_directory."/js/jquery.scrollTo.js", array('jquery'), null, true);
 		wp_enqueue_script( 'fancyboxeasing', $template_directory."/js/jquery.easing-1.3.pack.js", array('jquery'), null, true);
-		wp_enqueue_script( 'scroll', $template_directory."/js/scroll.js", array('jquery'), null, true);
+		wp_enqueue_script( 'copyUrl', $template_directory."/js/copyurl.js", array('jquery'), null, true);
 
 		?>
 
